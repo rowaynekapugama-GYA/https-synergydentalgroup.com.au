@@ -16,29 +16,6 @@ branch → `main` / `root`.
 **Vercel** — import the repo, framework preset "Other", no build
 command, output directory `./`.
 
-## ⚠️ Replace the portfolio screenshots
-
-§10.1 has a carousel of five GYA builds. It currently shows
-labelled placeholders that say REPLACE THIS FILE. Overwrite each
-with a real screenshot, keeping the exact filename:
-
-| File | Site |
-|---|---|
-| `assets/shots/01-horizon.png` | Horizon Dental |
-| `assets/shots/02-artarmon.png` | Artarmon Dentists |
-| `assets/shots/03-grey-street.png` | Grey Street Dentist |
-| `assets/shots/04-synergy.png` | Synergy Dental Group |
-| `assets/shots/05-tooth-n-care.png` | Tooth n Care |
-
-**Target 1600 × 1000 px**, desktop homepage, full-page or
-above-the-fold. The frame crops to 16:10 from the top, so the
-hero should sit in the top portion. No URLs appear anywhere in
-the carousel — the browser tab shows the practice name only, so
-staging links stay private.
-
-Quickest capture: Chrome → F12 → Ctrl/Cmd+Shift+M → set 1600×1000
-→ ⋮ menu → Capture screenshot.
-
 ## Before sending
 
 17 placeholders are highlighted in gold with a dotted underline.
@@ -49,6 +26,25 @@ Find and replace both and the highlight goes with them:
 
 Also confirm: the opening date (§11 assumes Monday 26 October —
 every countdown week shifts with it) and the pricing in §13.
+
+## Portfolio carousel (§10.1)
+
+Five live GYA builds. Screenshots are in `assets/shots/`, cropped
+to 1600 × 696 (23:10, a wide desktop viewport) and saved as
+progressive JPEG. To swap one out, keep the filename and the
+dimensions:
+
+| File | Site |
+|---|---|
+| `01-horizon.jpg` | Horizon Dental — Sydney CBD |
+| `02-artarmon.jpg` | Artarmon Dentists — Artarmon NSW |
+| `03-grey-street.jpg` | Grey Street Dentist — St Kilda VIC |
+| `04-synergy.jpg` | Synergy Dental Group — Parkdale VIC |
+| `05-tooth-n-care.jpg` | Tooth n Care — East Maitland NSW |
+
+No URLs appear anywhere in the carousel — the browser tab shows
+the practice name and location only, so staging links stay
+private.
 
 ## Editing
 
@@ -65,6 +61,6 @@ GYA logo gradient.
 | `--bone` | `#F7F5F4` | Page background |
 
 The hero countdown uses a rotating conic-gradient border
-(`@keyframes neon-spin`) and the hero rule uses a travelling
-sweep (`@keyframes rule-sweep`). Both are disabled automatically
-under `prefers-reduced-motion`.
+(`@keyframes neon-spin`); the hero rule uses a travelling sweep
+(`@keyframes rule-sweep`). Both disable automatically under
+`prefers-reduced-motion`.
