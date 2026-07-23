@@ -1,0 +1,1568 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<title>[Practice Name] — Pre-Opening Launch Strategy &amp; Website Build · GYA</title>
+<meta name="description" content="A proposal from Generate Your Audience for [Dr Principal] and the team at [Practice Name], Warrnambool: a complete website build, pre-opening launch campaign, local and AI search foundation, and paid acquisition program engineered to fill two chairs from opening day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    /* Palette derived from the GYA logo: rose #F0607E -> coral #F06868 -> orange #E86840,
+       with the wordmark charcoal as the structural ink. */
+    --bone:#F7F5F4;
+    --bone-2:#EEEAE7;
+    --bone-3:#E2DCD8;
+    --ink:#23202A;
+    --ink-2:#46414E;
+    --muted:#6E6773;
+    --brand:#E1594B;        /* display + large numerals */
+    --brand-deep:#B8402F;   /* small text, labels, markers */
+    --brand-soft:#E8836F;
+    --brand-tint:#F2A796;
+    --rose:#F0607E;         /* gradient start */
+    --orange:#E86840;       /* gradient end */
+    --grad:linear-gradient(95deg,#F0607E 0%,#EE6560 48%,#E86840 100%);
+    --pos:#4E7A5C;
+    --danger:#A32E28;
+    --line:rgba(35,32,42,0.14);
+    --line-2:rgba(35,32,42,0.06);
+    --serif:'Newsreader',Georgia,serif;
+    --sans:'Instrument Sans','Helvetica Neue',Arial,sans-serif;
+    --mono:'IBM Plex Mono',ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  html,body{margin:0;padding:0;background:var(--bone);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.62;font-weight:400;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  body{
+    background-image:
+      radial-gradient(circle at 85% 6%, rgba(240,96,126,0.07) 0%, transparent 46%),
+      radial-gradient(circle at 8% 88%, rgba(232,104,64,0.06) 0%, transparent 46%);
+    background-attachment:fixed;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:0 56px}
+  @media(max-width:780px){.wrap{padding:0 22px}}
+
+  /* placeholder token — find & replace before sending */
+  .ph{background:rgba(184,64,47,0.12);border-bottom:1px dotted var(--brand-deep);padding:0 2px;border-radius:2px}
+
+  /* ============ TOP BAR ============ */
+  .topbar{
+    position:sticky;top:0;z-index:50;
+    background:rgba(242,245,244,0.93);backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--line);
+    padding:13px 0;
+    font-family:var(--mono);font-size:11px;letter-spacing:0.03em;text-transform:uppercase;
+  }
+  .topbar-inner{display:flex;justify-content:space-between;align-items:center;gap:24px}
+  .topbar-left{display:flex;align-items:center;gap:16px}
+  .topbar-logo{height:22px;width:auto;display:block}
+  @media(max-width:520px){.topbar-logo{height:18px}}
+  .topbar-divider{width:1px;height:14px;background:var(--line)}
+  .topbar-status{color:var(--muted)}
+  .topbar-right{display:flex;gap:22px;color:var(--muted);align-items:center}
+  .topbar-right .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--brand-deep);margin-right:8px;vertical-align:middle}
+  @media(max-width:900px){.topbar-right{display:none}}
+
+  /* ============ HERO ============ */
+  header.hero{padding:76px 0 52px;position:relative;overflow:hidden}
+
+  /* SIGNATURE: the countdown slug — this document is organised around one date */
+  .countdown{
+    display:inline-flex;align-items:stretch;gap:0;margin-bottom:34px;
+    border:1px solid var(--brand);border-radius:3px;overflow:hidden;position:relative;z-index:2;
+  }
+  .countdown .t{
+    background:var(--grad);color:#fff;
+    font-family:var(--serif);font-size:34px;font-weight:300;line-height:1;
+    padding:12px 18px 13px;letter-spacing:-0.02em;display:flex;align-items:center;
+  }
+  .countdown .t sup{font-size:15px;top:-0.6em;position:relative}
+  .countdown .d{
+    padding:11px 20px;font-family:var(--mono);font-size:10px;letter-spacing:0.13em;
+    text-transform:uppercase;color:var(--brand-deep);display:flex;flex-direction:column;justify-content:center;line-height:1.5;
+  }
+  .countdown .d strong{font-family:var(--sans);font-size:13px;letter-spacing:0;text-transform:none;color:var(--ink);font-weight:600}
+
+  .hero-rule{position:absolute;right:0;top:120px;width:46%;height:2px;background:linear-gradient(90deg,transparent,var(--rose),var(--orange));opacity:0.55}
+  @media(max-width:900px){.hero-rule{display:none}}
+
+  .hero-eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:var(--brand-deep);margin-bottom:22px;position:relative;z-index:1}
+  .hero-title{font-family:var(--serif);font-weight:300;font-size:clamp(46px,6.6vw,92px);line-height:1.03;letter-spacing:-0.028em;margin:0 0 30px;position:relative;z-index:1;max-width:940px}
+  .hero-title em{font-style:italic;color:var(--brand);font-weight:400}
+  .hero-sub{font-family:var(--serif);font-weight:300;font-size:21px;line-height:1.55;max-width:760px;color:var(--ink-2);margin:0 0 52px;position:relative;z-index:1}
+
+  .hero-authors{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;padding-top:30px;border-top:1px solid var(--line);position:relative;z-index:1}
+  @media(max-width:780px){.hero-authors{grid-template-columns:repeat(2,1fr);gap:22px}}
+  .hero-author .label{font-family:var(--mono);font-size:10px;letter-spacing:0.13em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+  .hero-author .value{font-family:var(--sans);font-size:14px;font-weight:500;color:var(--ink);line-height:1.45}
+
+  /* ============ GRID LAYOUT ============ */
+  .grid{display:grid;grid-template-columns:236px 1fr;gap:76px;padding:56px 0 120px;position:relative}
+  @media(max-width:1000px){.grid{grid-template-columns:1fr;gap:36px;padding:36px 0 76px}}
+  aside.toc{position:sticky;top:76px;align-self:start;height:fit-content}
+  @media(max-width:1000px){aside.toc{position:relative;top:0;padding:22px;background:var(--bone-2);border-radius:4px}}
+  .toc-label{font-family:var(--mono);font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:var(--muted);margin-bottom:16px;padding-bottom:11px;border-bottom:1px solid var(--line)}
+  .toc ol{list-style:none;padding:0;margin:0;counter-reset:toc}
+  .toc li{counter-increment:toc;font-family:var(--mono);font-size:10.5px;letter-spacing:0.03em;text-transform:uppercase;padding:9px 0;border-bottom:1px solid var(--line-2);position:relative}
+  .toc li:before{content:counter(toc,decimal-leading-zero);font-size:9px;color:var(--muted);margin-right:12px;font-weight:500}
+  .toc a{color:var(--ink-2);text-decoration:none;transition:color .2s}
+  .toc a:hover{color:var(--brand-deep)}
+  .toc a:focus-visible{outline:2px solid var(--brand-deep);outline-offset:2px}
+
+  /* ============ MAIN CONTENT ============ */
+  main{min-width:0}
+  section{margin-bottom:116px;scroll-margin-top:76px}
+  @media(max-width:780px){section{margin-bottom:76px}}
+
+  .section-head{display:flex;align-items:flex-start;gap:30px;margin-bottom:44px;padding-bottom:30px;border-bottom:1px solid var(--line)}
+  .section-num{font-family:var(--mono);font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--muted);padding-top:9px;flex-shrink:0;min-width:60px}
+  .section-label{font-family:var(--mono);font-size:11px;letter-spacing:0.19em;text-transform:uppercase;color:var(--brand-deep);margin-bottom:12px}
+  .section-title{font-family:var(--serif);font-weight:300;font-size:clamp(40px,5.2vw,68px);line-height:1.02;letter-spacing:-0.025em;margin:0}
+  .section-title em{font-style:italic;color:var(--brand);font-weight:400}
+
+  .lede{font-family:var(--serif);font-weight:300;font-size:21px;line-height:1.56;color:var(--ink-2);margin:0 0 38px;max-width:780px}
+
+  /* ============ TYPOGRAPHY ============ */
+  h3{font-family:var(--serif);font-weight:400;font-size:30px;line-height:1.22;letter-spacing:-0.018em;color:var(--ink);margin:52px 0 22px;display:flex;align-items:baseline;gap:16px}
+  h3 .marker{font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:0.06em;color:var(--brand-deep);background:var(--bone-2);padding:5px 9px;border-radius:2px;flex-shrink:0;position:relative;top:-2px}
+  h4{font-family:var(--sans);font-weight:600;font-size:15px;color:var(--ink);margin:30px 0 12px;letter-spacing:-0.01em}
+  p{margin:0 0 17px;color:var(--ink-2);font-size:16px}
+  p strong{color:var(--ink);font-weight:600}
+  ul,ol{margin:0 0 22px;padding-left:21px;color:var(--ink-2)}
+  li{margin-bottom:9px;font-size:16px}
+  li strong{color:var(--ink);font-weight:600}
+  em{font-style:italic}
+  a{color:var(--brand)}
+  .fine{font-size:13px;color:var(--muted);font-style:italic}
+
+  /* ============ TABLES ============ */
+  .table-wrap{overflow-x:auto;margin:22px 0 34px;border:1px solid var(--line);border-radius:3px}
+  table{width:100%;border-collapse:collapse;font-size:14px;background:rgba(255,255,255,0.45);min-width:580px}
+  thead{background:var(--bone-2)}
+  th{font-family:var(--mono);font-size:10px;letter-spacing:0.11em;text-transform:uppercase;color:var(--muted);text-align:left;padding:13px 15px;font-weight:500;border-bottom:1px solid var(--line)}
+  td{padding:13px 15px;border-top:1px solid var(--line-2);color:var(--ink-2);vertical-align:top}
+  td strong{color:var(--ink)}
+  tr:hover td{background:rgba(225,89,75,0.035)}
+  .num{text-align:center;font-family:var(--mono);font-size:13px}
+
+  /* ============ CALLOUTS ============ */
+  .callout{background:var(--bone-2);border-left:3px solid var(--brand);padding:22px 26px;margin:30px 0;border-radius:0 3px 3px 0}
+  .callout-label{font-family:var(--mono);font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--brand-deep);margin-bottom:11px;font-weight:600}
+  .callout p:last-child,.callout ul:last-child{margin-bottom:0}
+
+  .warn{background:#FDF1EE;border-left:3px solid var(--brand-deep);padding:22px 26px;margin:30px 0;border-radius:0 3px 3px 0}
+  .warn-label{font-family:var(--mono);font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--brand-deep);margin-bottom:11px;font-weight:600}
+  .warn h4{margin-top:0;color:var(--ink)}
+  .warn p:last-child,.warn ul:last-child{margin-bottom:0}
+
+  .insight{background:linear-gradient(135deg,rgba(240,96,126,0.07) 0%,rgba(232,104,64,0.06) 100%);border:1px solid var(--line);padding:30px;margin:30px 0;border-radius:4px}
+  .insight-label{font-family:var(--mono);font-size:10px;letter-spacing:0.19em;text-transform:uppercase;color:var(--brand-deep);margin-bottom:13px;font-weight:600}
+  .insight-title{font-family:var(--serif);font-weight:400;font-size:24px;line-height:1.3;color:var(--ink);margin:0 0 13px;letter-spacing:-0.015em}
+  .insight p:last-child{margin-bottom:0}
+
+  /* ============ STAT BLOCKS ============ */
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(178px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin:30px 0;border-radius:3px;overflow:hidden}
+  .stat{background:var(--bone);padding:22px 20px}
+  .stat .n{display:block;font-family:var(--serif);font-weight:300;font-size:42px;line-height:1;letter-spacing:-0.03em;color:var(--brand);margin-bottom:9px}
+  .stat .l{font-family:var(--mono);font-size:10px;letter-spacing:0.07em;text-transform:uppercase;color:var(--muted);line-height:1.5}
+
+  /* ============ COMPETITOR CARD ============ */
+  .competitor{display:grid;grid-template-columns:132px 1fr;gap:28px;padding:24px 26px;background:rgba(255,255,255,0.42);border:1px solid var(--line);border-radius:3px;margin-bottom:15px}
+  @media(max-width:700px){.competitor{grid-template-columns:1fr;gap:14px;padding:20px}}
+  .comp-tag{padding:14px;background:var(--bone-2);border-radius:2px;text-align:center;align-self:start}
+  .comp-tag .type{font-family:var(--mono);font-size:9px;letter-spacing:0.11em;text-transform:uppercase;color:var(--muted);margin-bottom:4px;line-height:1.4}
+  .comp-tag .threat{font-family:var(--serif);font-weight:500;font-size:27px;color:var(--brand-deep);line-height:1;margin-bottom:4px}
+  .comp-tag.high .threat{color:var(--danger)}
+  .comp-tag.med .threat{color:var(--brand-deep)}
+  .comp-tag.low .threat{color:var(--pos)}
+  .comp-tag.ally .threat{color:var(--brand-soft)}
+  .comp-body h4{margin-top:0;font-size:18px;font-family:var(--serif);font-weight:500}
+  .comp-body p:last-child{margin-bottom:0}
+  .comp-meta{font-family:var(--mono);font-size:10.5px;letter-spacing:0.04em;color:var(--muted);margin:-6px 0 12px;text-transform:uppercase}
+
+  /* ============ CHANNEL CARD ============ */
+  .channel{border:1px solid var(--line);border-radius:4px;background:rgba(255,255,255,0.42);margin-bottom:16px;overflow:hidden}
+  .channel-head{display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:20px 26px;background:var(--bone-2);border-bottom:1px solid var(--line);flex-wrap:wrap}
+  .channel-head h4{margin:0;font-family:var(--serif);font-size:21px;font-weight:500;letter-spacing:-0.01em}
+  .verdict{font-family:var(--mono);font-size:10px;letter-spacing:0.11em;text-transform:uppercase;font-weight:600;padding:4px 10px;border-radius:2px;white-space:nowrap}
+  .v-now{background:var(--grad);color:#fff}
+  .v-soon{background:var(--ink);color:#fff}
+  .v-slow{background:var(--bone-3);color:var(--ink-2)}
+  .channel-body{padding:24px 26px}
+  .channel-body p:last-child,.channel-body ul:last-child{margin-bottom:0}
+
+  /* ============ WORKSTREAM BLOCKS ============ */
+  .play{border:1px solid var(--line);border-radius:4px;background:rgba(255,255,255,0.42);padding:26px 30px;margin-bottom:16px;position:relative;overflow:hidden}
+  .play:before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:var(--grad)}
+  .play.opt:before{background:var(--brand-tint)}
+  .play-title{font-family:var(--serif);font-weight:500;font-size:22px;color:var(--ink);margin:0 0 6px;letter-spacing:-0.015em}
+  .play-tag{font-family:var(--mono);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--brand-deep);margin-bottom:16px;font-weight:600}
+  .play p:last-child,.play ul:last-child{margin-bottom:0}
+
+  /* ============ COUNTDOWN TIMELINE (signature) ============ */
+  .tminus{margin:32px 0}
+  .tweek{display:grid;grid-template-columns:112px 1fr;gap:28px;padding:24px 0;border-top:1px solid var(--line)}
+  .tweek:last-child{border-bottom:1px solid var(--line)}
+  @media(max-width:780px){.tweek{grid-template-columns:1fr;gap:12px}}
+  .tweek-mark{position:relative}
+  .tweek-mark .big{display:block;font-family:var(--serif);font-weight:300;font-size:42px;line-height:1;letter-spacing:-0.035em;color:var(--brand)}
+  .tweek-mark .big sup{font-size:17px;top:-0.7em;position:relative}
+  .tweek-mark .dates{display:block;font-family:var(--mono);font-size:10px;letter-spacing:0.06em;text-transform:uppercase;color:var(--muted);margin-top:7px;line-height:1.5}
+  .tweek.launch .tweek-mark .big{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .tweek.launch{background:linear-gradient(90deg,rgba(240,96,126,0.09),transparent 70%)}
+  .tweek h4{margin:0 0 12px;font-family:var(--serif);font-size:20px;font-weight:500;letter-spacing:-0.01em}
+  .tweek ul{margin-bottom:0;padding-left:19px}
+  .tweek li{font-size:15px;margin-bottom:7px}
+
+  /* ============ ROADMAP ============ */
+  .phase{padding:26px 30px;background:rgba(255,255,255,0.42);border:1px solid var(--line);border-radius:4px;display:grid;grid-template-columns:186px 1fr;gap:32px;margin-bottom:16px}
+  @media(max-width:780px){.phase{grid-template-columns:1fr;gap:16px;padding:20px}}
+  .phase-range{font-family:var(--mono);font-size:11px;letter-spacing:0.09em;text-transform:uppercase;color:var(--muted)}
+  .phase-range .big{display:block;font-family:var(--serif);font-weight:300;font-size:44px;line-height:1;letter-spacing:-0.03em;color:var(--brand);margin:7px 0 4px;font-style:italic}
+  .phase-range .sub{display:block;color:var(--ink-2);margin-top:5px;font-size:11px;line-height:1.5}
+  .phase h4{margin-top:0;font-size:20px;font-family:var(--serif);font-weight:500;letter-spacing:-0.01em}
+  .row{padding:12px 0;border-bottom:1px solid var(--line-2);font-size:14.5px;color:var(--ink-2);display:flex;gap:15px}
+  .row:last-child{border-bottom:0;padding-bottom:0}
+  .row strong.k{flex-shrink:0;width:74px;font-family:var(--mono);font-size:10px;letter-spacing:0.07em;text-transform:uppercase;color:var(--brand-deep);padding-top:3px}
+
+  /* ============ INVESTMENT TIERS ============ */
+  .tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0}
+  @media(max-width:860px){.tiers{grid-template-columns:1fr}}
+  .tier{padding:30px 26px;background:rgba(255,255,255,0.45);border:1px solid var(--line);border-radius:4px;position:relative}
+  .tier.featured{border-color:var(--brand);border-width:2px;background:linear-gradient(180deg,rgba(255,255,255,0.6) 0%,rgba(225,89,75,0.05) 100%)}
+  .tier.featured:after{content:'Recommended for a new clinic';position:absolute;top:-11px;left:20px;background:var(--grad);color:#fff;font-family:var(--mono);font-size:9px;letter-spacing:0.11em;text-transform:uppercase;padding:4px 10px;border-radius:2px;font-weight:600}
+  .tier.dim{opacity:0.82}
+  .tier-name{font-family:var(--mono);font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
+  .tier-title{font-family:var(--serif);font-weight:500;font-size:23px;color:var(--ink);margin:0 0 12px;letter-spacing:-0.015em}
+  .tier-price{font-family:var(--serif);font-weight:300;font-size:42px;line-height:1;letter-spacing:-0.03em;color:var(--brand);margin:0 0 4px}
+  .tier-price .small{font-size:14px;color:var(--muted)}
+  .tier-sub{font-family:var(--mono);font-size:10px;letter-spacing:0.07em;text-transform:uppercase;color:var(--muted);margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--line);line-height:1.6}
+  .tier ul{padding-left:0;list-style:none;margin:0}
+  .tier ul li{font-size:13px;line-height:1.55;margin-bottom:9px;padding-left:20px;position:relative;color:var(--ink-2)}
+  .tier ul li:before{content:'';position:absolute;left:0;top:7px;width:9px;height:9px;border:1.5px solid var(--brand);border-right:0;border-top:0;transform:rotate(-45deg) translateY(-2px)}
+
+  /* ============ FOOTER ============ */
+  footer{padding:70px 0 56px;background:var(--bone-2);border-top:1px solid var(--line);margin-top:70px}
+  .mark-out{position:absolute;right:0;top:14px;width:300px;max-width:44%;height:auto;opacity:0.13;user-select:none;pointer-events:none}
+  @media(max-width:780px){.mark-out{width:180px;opacity:0.1}}
+  .footer-meta{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;position:relative;z-index:1}
+  @media(max-width:780px){.footer-meta{grid-template-columns:repeat(2,1fr);gap:22px}}
+  .footer-meta div{font-family:var(--mono);font-size:10px;letter-spacing:0.07em;text-transform:uppercase;color:var(--muted)}
+  .footer-meta strong{display:block;font-family:var(--sans);font-size:13px;color:var(--ink);text-transform:none;letter-spacing:0;font-weight:500;margin-top:6px;line-height:1.5}
+
+  /* ============ REVEAL ============ */
+  [data-reveal]{opacity:0;transform:translateY(12px);transition:opacity .7s ease,transform .7s ease}
+  [data-reveal].in{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){
+    [data-reveal]{opacity:1;transform:none;transition:none}
+    html{scroll-behavior:auto}
+  }
+
+  /* ============ PRINT ============ */
+  @media print{
+    .topbar,aside.toc{display:none}
+    .grid{grid-template-columns:1fr;padding:0;gap:0}
+    section{page-break-inside:avoid;margin-bottom:48px}
+    .mark-out{display:none}
+    body{background:white;background-image:none}
+    [data-reveal]{opacity:1;transform:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <div class="wrap topbar-inner">
+    <div class="topbar-left">
+      <img class="topbar-logo" src="data:image/png;base64,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" alt="Generate Your Audience">
+      <span class="topbar-divider"></span>
+      <span class="topbar-status">Launch Proposal</span>
+    </div>
+    <div class="topbar-right">
+      <span><span class="dot"></span>Confidential — <span class="ph">[Practice Name]</span>, Warrnambool</span>
+      <span>Rev. 01 / July 2026</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<div class="wrap">
+<header class="hero">
+  <div class="hero-rule"></div>
+
+  <div class="countdown">
+    <div class="t">T<sup>−</sup>14</div>
+    <div class="d">Weeks to opening<strong>Two chairs, Liebig Street, late October</strong></div>
+  </div>
+
+  <div class="hero-eyebrow">A proposal from Generate Your Audience</div>
+  <h1 class="hero-title">Open with a<br>waiting list, not an<br><em>empty diary.</em></h1>
+  <p class="hero-sub">A complete website build and a pre-opening launch program for <span class="ph">[Practice Name]</span> — engineered so that Warrnambool already knows the practice exists, already knows what it does, and has already started booking, before the doors open in late October.</p>
+
+  <div class="hero-authors">
+    <div class="hero-author"><div class="label">Prepared for</div><div class="value"><span class="ph">[Dr Principal]</span><br><span class="ph">[Practice Name]</span><br>Warrnambool, Victoria</div></div>
+    <div class="hero-author"><div class="label">Prepared by</div><div class="value">Rowayne<br>Generate Your Audience</div></div>
+    <div class="hero-author"><div class="label">Date</div><div class="value">23 July 2026</div></div>
+    <div class="hero-author"><div class="label">Validity</div><div class="value">45 days from issue</div></div>
+  </div>
+</header>
+</div>
+
+<!-- ============ MAIN GRID ============ -->
+<div class="wrap">
+<div class="grid">
+
+<aside class="toc">
+  <div class="toc-label">Contents</div>
+  <ol>
+    <li><a href="#part-1">Executive summary</a></li>
+    <li><a href="#part-2">About GYA</a></li>
+    <li><a href="#part-3">Starting position</a></li>
+    <li><a href="#part-4">The Warrnambool market</a></li>
+    <li><a href="#part-5">Competitor landscape</a></li>
+    <li><a href="#part-6">Positioning</a></li>
+    <li><a href="#part-7">Channel analysis</a></li>
+    <li><a href="#part-8">The plan</a></li>
+    <li><a href="#part-9">Website build</a></li>
+    <li><a href="#part-10">Six-week countdown</a></li>
+    <li><a href="#part-11">First 90 days open</a></li>
+    <li><a href="#part-12">Investment</a></li>
+    <li><a href="#part-13">Why GYA</a></li>
+    <li><a href="#part-14">Next steps</a></li>
+  </ol>
+</aside>
+
+<main>
+
+<!-- ============ 01 EXECUTIVE SUMMARY ============ -->
+<section id="part-1" data-reveal>
+  <div class="section-head">
+    <div class="section-num">§ 01</div>
+    <div>
+      <div class="section-label">Part One</div>
+      <h2 class="section-title">Executive<br><em>summary.</em></h2>
+    </div>
+  </div>
+
+  <p class="lede">A new practice has one advantage no established clinic can buy back: nothing to undo. No legacy website, no stale Google listing, no ten-year-old brand, no bad reviews to bury. It also has one disadvantage no amount of clinical skill fixes on opening day — nobody in Warrnambool knows you exist yet.</p>
+
+  <p>This proposal is built around closing that second gap before late October, not after it. Fourteen weeks out, the practice is a fit-out. On opening day it needs to be a name people in Warrnambool, Port Fairy, Koroit and Terang already recognise, with a diary that has appointments in it from week one — not a slow twelve-month drift toward break-even while the fixed costs of two chairs run regardless.</p>
+
+  <p>The commercial reality of a greenfield dental practice is unforgiving in one specific way: <strong>the cost base arrives fully formed on day one and the revenue does not.</strong> Rent on a main-street CBD tenancy, the CBCT, the chairs, the staff — all of it is running at 100% from the first Monday. Chair utilisation is what has to catch up, and every week of empty chair time in the ramp is a permanent, unrecoverable loss. Marketing that starts on opening day is already six weeks late.</p>
+
+  <p>What follows is a complete program:</p>
+
+  <ol>
+    <li><strong>A website built for a practice that doesn't exist yet</strong> — designed to rank, to convert, and to be quotable by AI search engines from the moment it's indexed, with a pre-opening waitlist mode that flips to a full booking site on opening day.</li>
+    <li><strong>A local and AI search foundation</strong> — Google Business Profile created and verified early so it starts ageing before you open, full schema markup, town-level landing pages across the Great South Coast catchment, and a deliberate program to become one of the practices AI assistants name when someone asks "who's a good dentist in Warrnambool".</li>
+    <li><strong>A paid acquisition program</strong> — Google Ads and Meta, live <em>before</em> opening, sized to two chairs and weighted toward the services where the economics justify it: implants, cosmetic, root canal and new-patient general.</li>
+    <li><strong>A six-week pre-opening launch campaign</strong> — a week-by-week execution plan from T−6 to opening day, covering local press, community groups, referral relationships, the fit-out content series, the waitlist, and a launch event. Detailed in §10.</li>
+    <li><strong>A patient retention engine from day one</strong> — SmileOx CRM configured before the first patient walks in, so recalls, reminders, review requests and reactivation are running from patient number one rather than being retrofitted in year three.</li>
+  </ol>
+
+  <div class="insight">
+    <div class="insight-label">The single most important observation</div>
+    <h3 class="insight-title">You will open with zero Google reviews against an incumbent with more than five hundred. That fight is unwinnable in year one — so don't have it.</h3>
+    <p>Warrnambool Dental holds a 4.8 average across <strong>530+ Google reviews</strong>. Warrnambool Smile Dental holds 4.9 across <strong>280+</strong>. Review volume is the dominant ranking factor in the local map pack and the dominant trust signal for a patient choosing between two names. You cannot close a 500-review gap in twelve months, and any strategy that depends on doing so will fail. The entire year-one plan is therefore built on the three levers where review count is <em>not</em> the deciding factor: <strong>physical proximity</strong> (you will be the closest dentist to the CBD), <strong>paid search</strong> (the auction is bought, not earned), and <strong>AI answer citation</strong> (where a well-structured new site can outrank a high-authority old one). Reviews get built relentlessly in the background — but nothing in the first year is allowed to depend on them.</p>
+  </div>
+
+  <p>The engagement has three parts: a one-off website build, a one-off pre-opening launch program, and a monthly retainer tier — Foundation, Growth or Scale. For a brand-new practice we recommend Scale, and §12 explains why Foundation is the wrong choice for a clinic with no patient base. Paid media spend on Google and Meta is always paid directly by the practice to the platforms; GYA never marks up media.</p>
+
+  <div class="insight">
+    <div class="insight-label">The second observation</div>
+    <h3 class="insight-title">No general dental practice in Warrnambool holds a Liebig Street address.</h3>
+    <p>Every significant competitor sits on an arterial road or inside a shopping centre — Raglan Parade, Mortlake Road, Gateway Plaza — or on the CBD's quieter edges: Timor, Koroit, Kepler, Banyan. The only dental business trading on Liebig Street itself is an orthodontic specialist, and orthodontics is the one service <span class="ph">[Practice Name]</span> won't offer. That makes them a referral partner rather than a competitor, and it leaves the main street of the largest city in south-west Victoria without a general dentist on it. That is a positioning asset, a local-SEO proximity asset, and a foot-traffic asset all at once, and §06 is about spending it properly.</p>
+  </div>
+</section>
+
+<!-- ============ 02 ABOUT GYA ============ -->
+<section id="part-2" data-reveal>
+  <div class="section-head">
+    <div class="section-num">§ 02</div>
+    <div>
+      <div class="section-label">Part Two</div>
+      <h2 class="section-title">About<br>Generate Your <em>Audience.</em></h2>
+    </div>
+  </div>
+
+  <p class="lede">GYA is a Sydney-based digital marketing agency built around dental practices. Not a generalist agency with a healthcare vertical — dental is the category the agency was designed for, and the one our team has the most repetitions in.</p>
+
+  <h3><span class="marker">2.1</span>What we do</h3>
+  <p>We operate as a single accountable growth partner. We build the website, run the Google Ads, run the Meta campaigns, manage the SEO and the Google Business Profile, configure the CRM, write the SMS and email automations, produce the social content, and report on all of it monthly. One team, one invoice, one throat to choke — instead of five vendors who each blame the other four when new patient numbers dip.</p>
+
+  <h3><span class="marker">2.2</span>Why we only do dental</h3>
+  <p>Dental is a strange category and the strangeness is expensive to learn. The purchase cycle is bimodal — a check-up is a six-month habit, an implant case is a nine-month deliberation. The value range across treatments is enormous, which means a channel that looks unprofitable on cost-per-lead can be extremely profitable on cost-per-case. AHPRA's advertising guidelines constrain every claim, testimonial and before/after image a practice publishes, and the penalties for getting it wrong land on the practitioner's registration, not the agency's. And patient psychology in dental is dominated by two emotions — fear and suspicion about cost — that almost no other service category has to design around. We learned all of that across dozens of engagements. It's now the reason our clients' budgets don't fund our education.</p>
+
+  <h3><span class="marker">2.3</span>A selection of current dental work</h3>
+  <p>A cross-section of the practices GYA is actively working with, chosen to show the range rather than the highlights:</p>
+  <ul>
+    <li><strong>Summit Dental</strong> (Little Mountain, Sunshine Coast QLD) — Meta and Facebook acquisition program, conversion landing pages, SmileOx lead management.</li>
+    <li><strong>Dental Square</strong> (West Ryde NSW) — implant and All-on-4 landing page, AI SMS agent for after-hours enquiry handling, local SEO audit and rebuild.</li>
+    <li><strong>Seth Dental</strong> (Gerringong NSW) — Google Ads landing page suite feeding directly into SmileOx, health fund and current-offer architecture.</li>
+    <li><strong>Glenroy Smiles Dental</strong> (Glenroy VIC) — new-patient no-gap offer landing page and full Google Tag Manager conversion tracking build.</li>
+    <li><strong>Dental Specialists Turramurra</strong> (NSW) — complete website rebuild for an established specialist practice.</li>
+    <li><strong>Bannockburn Dental</strong> (VIC) — Google and Meta ad landing pages across implants, orthodontics and general new-patient acquisition.</li>
+    <li><strong>Artarmon Dentists</strong> (NSW) — social reel production and caption strategy, with a campaign focus on same-day CEREC crowns.</li>
+    <li><strong>Windsor Dental Care</strong> (NSW) — special offers architecture, practice membership program, and seasonal whitening campaigns.</li>
+    <li><strong>Southlakes Dental</strong> (NSW) — Google review generation and reputation management program.</li>
+    <li><strong>Synergy Dental Group</strong> (Parkdale VIC) — ongoing social content production and campaign coordination.</li>
+  </ul>
+
+  <p>At any point GYA is working with 100+ dental clinics nationally. That matters here for one practical reason: we can see, in near real time, which channels are producing new patients in regional Victorian markets versus metro ones — and they are not the same. A launch plan for a Warrnambool practice built off Melbourne assumptions would over-invest in the wrong places.</p>
+
+  <div class="callout">
+    <div class="callout-label">Relevant experience</div>
+    <p>Three of the practices above sit in regional or outer-metro Victoria. The pattern we see consistently in those markets: <strong>Google Ads clears far cheaper than metro, Facebook community groups carry disproportionate weight, and the surrounding towns are a bigger share of new patients than the practice owner expects.</strong> All three of those observations are load-bearing in the plan that follows.</p>
+  </div>
+</section>
+
+<!-- ============ 03 STARTING POSITION ============ -->
+<section id="part-3" data-reveal>
+  <div class="section-head">
+    <div class="section-num">§ 03</div>
+    <div>
+      <div class="section-label">Part Three</div>
+      <h2 class="section-title">Starting<br><em>position.</em></h2>
+    </div>
+  </div>
+
+  <p class="lede">An established practice gets an audit. A practice that doesn't exist yet gets an inventory — an honest account of what has to be built, what it costs in time rather than money, and which of those things must be started immediately because they cannot be accelerated later.</p>
+
+  <h3><span class="marker">3.1</span>What doesn't exist yet</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Asset</th><th>Status</th><th>Lead time before it works</th><th>Start by</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Domain &amp; website</strong></td><td>Not built</td><td>Google needs 4–8 weeks to index and begin trusting a new domain</td><td><strong>Immediately</strong></td></tr>
+        <tr><td><strong>Google Business Profile</strong></td><td>Not created</td><td>Verification can take 1–4 weeks; ranking maturity takes months</td><td><strong>Immediately</strong></td></tr>
+        <tr><td><strong>Google reviews</strong></td><td>Zero</td><td>Impossible before you treat patients; 6–12 months to reach competitive volume</td><td>Opening day</td></tr>
+        <tr><td><strong>Google Ads account</strong></td><td>Not created</td><td>4–6 weeks for Quality Score and bidding to stabilise</td><td>T−6 weeks</td></tr>
+        <tr><td><strong>Meta pixel &amp; audiences</strong></td><td>No data</td><td>Needs 4–8 weeks of traffic before retargeting and lookalikes function</td><td>T−8 weeks</td></tr>
+        <tr><td><strong>Directory &amp; citation profile</strong></td><td>Nothing listed</td><td>2–6 weeks to propagate across the ecosystem</td><td>T−8 weeks</td></tr>
+        <tr><td><strong>AI search presence</strong></td><td>Invisible</td><td>Days to weeks on ChatGPT/Perplexity; 2–8 weeks for Google AI Overviews</td><td>At site launch</td></tr>
+        <tr><td><strong>Patient database</strong></td><td>Empty</td><td>No reactivation channel exists until it fills</td><td>Opening day</td></tr>
+        <tr><td><strong>Referral relationships</strong></td><td>None established</td><td>4–8 weeks of relationship-building; compounds indefinitely</td><td>T−8 weeks</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="warn">
+    <div class="warn-label">The timing problem, stated plainly</div>
+    <p>Read that "start by" column against the calendar. It is 23 July. Opening is roughly fourteen weeks away. <strong>Four of those nine assets should already be in motion, and the two that matter most — the website and the Google Business Profile — are the two with the longest lead times.</strong> A website launched in October cannot rank in October. A Google Business Profile verified in October has no ranking history in October. Neither of those is a budget problem; both are a calendar problem, and the calendar is the only input in this plan that cannot be bought back.</p>
+  </div>
+
+  <h3><span class="marker">3.2</span>What you already have — and it's more than it looks</h3>
+
+  <ul>
+    <li><strong>No legacy debt.</strong> Every established competitor is carrying something: a slow site built in 2018, a Google listing with the wrong opening hours, an Instagram account that stopped in 2023, a domain with a decade of accumulated technical mess. You start clean, which means the site can be built correctly for AI search, schema, page speed and conversion from the first line of code rather than retrofitted.</li>
+    <li><strong>A main-street CBD address.</strong> Proximity is one of the three primary ranking factors in Google's local algorithm, and it is the only one competitors cannot outspend you on. Every "dentist near me" search made from the Liebig Street retail strip, the Coles and Target car parks, the Civic Green, the council offices, the law courts, the Lighthouse Theatre or the Ozone precinct resolves closer to you than to anyone on Raglan Parade.</li>
+    <li><strong>Genuine access.</strong> Ample parking — including free first-hour bays in Parkers, Ozone and the Coles-Younger car park, free parking on Banyan Street, and free weekend parking across the council car parks — plus the Koroit Street bus interchange in the CBD, where seven routes converge, and Warrnambool Station a short walk away with V/Line services from Melbourne, Colac and Geelong.</li>
+    <li><strong>A defined clinical scope.</strong> General, cosmetic, implants (single and multiple units), and root canal — with Vatech CBCT imaging on site. That is a specific, marketable capability set, and the fact that it deliberately excludes orthodontics and full-arch is a strategic asset, not a gap. §05 explains why.</li>
+    <li><strong>Payment plans from day one.</strong> In a market where three in ten Australians report delaying dental care because of cost, and where the local public dental waiting list runs well over a year, an affordability mechanism at the point of decision is a genuine competitive instrument.</li>
+  </ul>
+
+  <h3><span class="marker">3.3</span>Two constraints we plan around, not against</h3>
+
+  <h4>No preferred provider status</h4>
+  <p>This is a real commercial constraint and it deserves a straight answer rather than a spin. Roughly <strong>55% of Australians hold extras cover</strong>, dental is the single most claimed benefit on those policies, and the major funds — Bupa Members First, HCF More for Teeth, Medibank Members Choice — actively steer members toward contracted clinics with "no gap" and "known gap" messaging. Patients search on it. Some will filter you out for it.</p>
+  <p>What we do <em>not</em> do is bid on "no gap dentist Warrnambool" or "bulk bill dentist Warrnambool" and pay to lose. Those become negative keywords on day one. What we do instead is build the affordability story on three foundations the funds don't control: <strong>transparent published pricing</strong> (still rare in Australian dentistry and disproportionately effective), <strong>payment plans presented as a headline feature rather than fine print</strong>, and <strong>on-the-spot HICAPS claiming with any fund</strong> — because most patients don't actually understand that they can claim at a non-preferred clinic, they just assume they can't. Correcting that misconception is a content and ad-copy job, and it is one of the highest-value pieces of copy on the whole site.</p>
+  <p>There is also a positioning argument available, used carefully and within AHPRA's limits: a practice with no contracted fee schedule sets its own appointment lengths, its own material choices and its own treatment sequencing, without a third party's schedule in the room. That framing plays particularly well with the implant and cosmetic patient, who is spending real money and wants to know the decision is clinical.</p>
+
+  <h4>No orthodontics, no full-arch</h4>
+  <p>Ortho and full-arch are two of the highest-CPC, highest-competition terms in Australian dental advertising. Not offering them removes two expensive auctions from your media plan and removes two long, complex case types from a two-chair practice's schedule. It also creates two clean referral relationships — outbound to the orthodontist and to the full-arch provider, inbound from both for everything they don't do. §05.2 covers this as a workstream rather than a footnote.</p>
+</section>
+
+<!-- ============ 04 THE MARKET ============ -->
+<section id="part-4" data-reveal>
+  <div class="section-head">
+    <div class="section-num">§ 04</div>
+    <div>
+      <div class="section-label">Part Four</div>
+      <h2 class="section-title">The Warrnambool<br><em>market.</em></h2>
+    </div>
+  </div>
+
+  <p class="lede">Warrnambool is not a suburb with 35,000 people in it. It is the service centre for the entire Great South Coast — the place people from six local government areas drive to for the things their own town doesn't have. That distinction changes the marketing geography completely.</p>
+
+  <h3><span class="marker">4.1</span>The catchment</h3>
+
+  <div class="stats">
+    <div class="stat"><span class="n">~35k</span><span class="l">City of Warrnambool population</span></div>
+    <div class="stat"><span class="n">~100k</span><span class="l">Regional catchment served by Warrnambool for retail, professional &amp; health services</span></div>
+    <div class="stat"><span class="n">126k</span><span class="l">Great South Coast region — six LGAs</span></div>
+    <div class="stat"><span class="n">42</span><span class="l">Median age — skews restorative &amp; implant</span></div>
+  </div>
+
+  <p>Warrnambool is the largest city in south-west Victoria and Victoria's largest coastal city outside Port Phillip Bay, 265km from Melbourne. It is growing steadily at around 0.8–1.2% a year — roughly 300 new residents annually — which is modest in absolute terms but meaningful for a category with a fixed number of chairs. The council's own economic profile puts the service catchment at approximately 100,000 people; the wider Great South Coast region (Warrnambool, Moyne, Corangamite, Colac-Otway, Southern Grampians, Glenelg) totals about 126,000.</p>
+
+  <p>Median age of 42 matters more than it looks. A market skewed toward the mid-forties and up is a market where the treatment mix tips away from orthodontics and toward exactly what this practice does: restorative work, crowns, root canal, implants to replace failing teeth, and cosmetic work with a "repair and restore" motivation rather than a "perfect my smile" one. The clinical scope and the demographic are well matched — and that should be visible in every piece of ad copy and every service page.</p>
+
+  <h3><span class="marker">4.2</span>Three market conditions that favour a new private practice</h3>
+
+  <ul>
+    <li><strong>The public system is not a competitor — it's a lead source.</strong> Average waiting time for general dental care in Victoria's public system runs around 16–17 months, with the ADA's Victorian branch reporting the state service operating at roughly half its intended capacity and around a third of all public dental episodes being emergency rather than preventive. South West Healthcare on Ryot Street is the local public provider. Every person on that list who reaches the point of pain is a private patient looking for somewhere to go — and payment plans are the mechanism that converts them.</li>
+    <li><strong>Extras cover is the dominant funding mechanism, and it resets every year.</strong> Around 55% of Australians hold extras cover; dental is both the top reason people buy it and the top benefit claimed against it. That creates a hard, predictable seasonal spike in November–December as annual limits approach expiry, and a second in January as they reset. For a practice opening in late October, the December "use it or lose it" window falls six weeks after opening — the single best-timed demand event a new clinic could ask for.</li>
+    <li><strong>Cost avoidance is the biggest single barrier.</strong> AIHW data has consistently shown roughly three in ten Australians delaying or avoiding dental care because of cost. In a regional market with a strong trades, dairy, manufacturing and healthcare employment base, that number is not lower. A practice that leads with published prices and payment plans is speaking directly to the largest untreated segment in the catchment.</li>
+  </ul>
+
+  <h3><span class="marker">4.3</span>Search demand — by service</h3>
+
+  <p>The table below estimates monthly Google search volume in the Warrnambool geographic for the categories where <span class="ph">[Practice Name]</span> can compete. These are planning estimates derived from observed Australian regional local-search patterns and market size; we validate every one of them in Google Keyword Planner against the live account before a dollar of media is committed.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Search category</th><th class="num">Est. vol. / mo</th><th>Intent</th><th>Priority for a new clinic</th></tr></thead>
+      <tbody>
+        <tr><td><strong>dentist warrnambool</strong></td><td class="num">300–500</td><td>High — comparing options</td><td>Core. Paid from T−4, organic long-term</td></tr>
+        <tr><td><strong>dentist near me</strong> <em>(resolving in Warrnambool)</em></td><td class="num">400–700</td><td>Very high — booking-ready</td><td>Map pack + paid. Proximity is the asset</td></tr>
+        <tr><td><strong>emergency dentist warrnambool</strong></td><td class="num">70–140</td><td>Highest — same day</td><td>Highest value per click. Own this</td></tr>
+        <tr><td><strong>dental implants warrnambool</strong></td><td class="num">40–90</td><td>Considered, 2–6 month cycle</td><td>Highest case value. CBCT is the proof</td></tr>
+        <tr><td>dentist open saturday / after hours</td><td class="num">40–80</td><td>High — convenience-driven</td><td>Depends on your trading hours decision</td></tr>
+        <tr><td>teeth whitening warrnambool</td><td class="num">30–70</td><td>Fast conversion, promo-friendly</td><td>Launch offer candidate</td></tr>
+        <tr><td>wisdom teeth removal warrnambool</td><td class="num">30–60</td><td>High intent, problem-driven</td><td>Winnable — CBCT supports it</td></tr>
+        <tr><td>root canal warrnambool / cost</td><td class="num">25–50</td><td>High intent, price-sensitive</td><td>Published pricing wins this one</td></tr>
+        <tr><td>cosmetic dentist / veneers warrnambool</td><td class="num">25–50</td><td>Long consideration, high value</td><td>Content + Meta, not search-led</td></tr>
+        <tr><td>children's / family dentist warrnambool</td><td class="num">25–50</td><td>Loyalty &amp; household lifetime value</td><td>Whole-family capture play</td></tr>
+        <tr><td>dentist prices / cost warrnambool</td><td class="num">20–40</td><td>Pre-purchase research</td><td>Underserved. Publish and own it</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Total commercial-intent search demand in the immediate Warrnambool geographic sits at roughly <strong>1,000–1,800 searches per month</strong>. A two-chair practice does not need a large share of that. At an average of 22 new patients per chair per month in a healthy ramp, the practice needs somewhere in the order of <strong>40–50 new patients a month</strong> to reach mature utilisation — which is a low-single-digit percentage capture of the addressable search demand, before Meta, referral, word of mouth or walk-ins contribute anything at all. That is an achievable target, and it is the number the whole plan is sized against.</p>
+
+  <h3><span class="marker">4.4</span>Search demand — by town</h3>
+
+  <p>This is the part most practices in regional markets underestimate. Warrnambool's competitors already know it: Warrnambool Smile Dental publishes a dedicated Portland landing page; Lady Bay Dental runs a second site in Terang; Warrnambool Dental's own copy explicitly names Hamilton, Camperdown, Portland, Port Fairy, Terang, Timboon and Cobden as its service area. The surrounding towns are not a bonus — they are a structural part of every successful Warrnambool practice's patient base, and the search volume is uncontested precisely because it looks small.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Town</th><th class="num">Est. vol. / mo</th><th class="num">Drive time</th><th>Strategic read</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Port Fairy</strong></td><td class="num">40–90</td><td class="num">25 min</td><td>Affluent, coastal, high cosmetic propensity. Direct bus route. Priority one</td></tr>
+        <tr><td><strong>Koroit</strong></td><td class="num">20–40</td><td class="num">20 min</td><td>No practice of scale. Direct bus. Easy win</td></tr>
+        <tr><td><strong>Terang</strong></td><td class="num">20–40</td><td class="num">35 min</td><td>Contested — Lady Bay operates a site inside the medical clinic</td></tr>
+        <tr><td><strong>Camperdown</strong></td><td class="num">30–70</td><td class="num">50 min</td><td>Winnable on implants and CBCT-dependent work</td></tr>
+        <tr><td><strong>Portland</strong></td><td class="num">50–110</td><td class="num">1 hr 10</td><td>Actively targeted by Warrnambool Smile. Implant-only play</td></tr>
+        <tr><td><strong>Hamilton</strong></td><td class="num">50–110</td><td class="num">1 hr 15</td><td>Implant and complex-case referral catchment only</td></tr>
+        <tr><td><strong>Colac</strong></td><td class="num">70–140</td><td class="num">1 hr 15</td><td>Large but distant. Test, don't commit</td></tr>
+        <tr><td>Timboon · Cobden · Mortlake</td><td class="num">30–60 combined</td><td class="num">30–50 min</td><td>Long tail. One page covers all three</td></tr>
+        <tr><td>Dennington · Allansford · Woodford · Bushfield</td><td class="num">20–40 combined</td><td class="num">5–15 min</td><td>Effectively Warrnambool. Cover in suburb pages</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout">
+    <div class="callout-label">The compounding argument</div>
+    <p>Individually these look trivial — twenty searches a month for "dentist Koroit" is not a business. Collectively the town modifiers add <strong>350–650 additional monthly searches at extremely high commercial intent and near-zero paid competition</strong>, and a patient who drives 25 minutes from Port Fairy for an implant consultation is worth several times a walk-in check-up. Each town gets a genuine landing page — not a doorway page with the name swapped, which Google devalues and AI systems ignore, but a real page covering drive time, parking, the specific services that justify the trip, and the practice's relationship to that community.</p>
+  </div>
+
+  <h3><span class="marker">4.5</span>Seasonality — and why late October is good timing</h3>
+  <p>Australian dental demand has a reliable shape: a strong November–December peak as extras limits expire, a January lull followed by a February reset spike, steady autumn trading, a mid-winter dip, and a spring build. Opening in late October places the practice's first eight weeks directly inside the strongest demand window of the year, with the "use your benefits before 31 December" message available immediately and no competing history to muddy it. It also means the January lull arrives when the practice is still ramping, which is exactly when you want a quiet month — it is the right time to be building reviews, not chasing volume.</p>
+</section>
+
+<!-- ============ 05 COMPETITOR LANDSCAPE ============ -->
+<section id="part-5" data-reveal>
+  <div class="section-head">
+    <div class="section-num">§ 05</div>
+    <div>
+      <div class="section-label">Part Five</div>
+      <h2 class="section-title">Competitor<br><em>landscape.</em></h2>
+    </div>
+  </div>
+
+  <p class="lede">Eleven dental businesses trade in Warrnambool. Two of them dominate the digital market so thoroughly that they define the terms of entry. Three are effectively invisible online and are losing patients they don't know they're losing. And three are not competitors at all — they are referral partners, and treating them as such is worth more than beating them.</p>
+
+  <p class="fine">Review counts and ratings below are live Google Business Profile data as at July 2026 and will move. They are recorded here as a baseline to measure against.</p>
+
+  <div class="competitor">
+    <div class="comp-tag high">
+      <div class="type">Threat</div>
+      <div class="threat">A1</div>
+      <div class="type">Market Leader</div>
+    </div>
+    <div class="comp-body">
+      <h4>Warrnambool Dental — 454A Raglan Parade</h4>
+      <div class="comp-meta">4.8 ★ · 530+ reviews · est. 2018 · warrnambooldental.com.au</div>
+      <p><strong>Why they matter:</strong> The dominant practice in the market by a distance. More than five hundred Google reviews at 4.8, trading 7:30am–7:30pm Monday to Friday plus Saturdays, HotDoc online booking, and a website whose copy is visibly written for search — it names "dentist near me" and "Warrnambool dentists" directly on the homepage. Their service list is deliberately exhaustive: CEREC crowns, implants, endodontics, sleep dentistry, veneers, Invisalign, facial injectables. Their positioning line is the sharpest in the market: <em>"we routinely perform treatments that other clinics refer out."</em></p>
+      <p><strong>Where they're winning:</strong> Review volume, extended trading hours, breadth of service, online booking, and a genuine regional service-area claim covering Hamilton through to Cobden.</p>
+      <p><strong>Where they're beatable:</strong> They are on the Princes Highway, not in the CBD — which is a car-first proposition, not a walk-in one. Their positioning is "everything for everyone", which is strong for market share and weak for a patient who wants a specific answer to a specific problem. Their site is service-list-led rather than question-led, which is exactly the structure AI search engines struggle to cite from. And an exhaustive service list across a busy practice creates a scheduling reality — long waits for non-urgent appointments — that a new two-chair practice with availability can attack directly.</p>
+    </div>
+  </div>
+
+  <div class="competitor">
+    <div class="comp-tag high">
+      <div class="type">Threat</div>
+      <div class="threat">A2</div>
+      <div class="type">Multi-site SEO</div>
+    </div>
+    <div class="comp-body">
+      <h4>Warrnambool Smile Dental — 72 Mortlake Rd &amp; Gateway Plaza</h4>
+      <div class="comp-meta">4.9 ★ · 280+ reviews (Mortlake Rd) · 4.4 ★ · 33 reviews (Gateway) · warrnamboolsmile.com.au</div>
+      <p><strong>Why they matter:</strong> Two locations, which doubles their local map footprint, plus 1,600+ Facebook followers and the most deliberate SEO operation in the market. They publish town-targeted landing pages — a dedicated Portland dentist page is live — and they market Digital Smile Design, implants, veneers and clear aligners as a cosmetic-led proposition. This is the practice executing the regional multi-town playbook properly.</p>
+      <p><strong>The lesson to take, not the fight to pick:</strong> Their town-page strategy is the correct strategy for this market, and it is replicable — arguably better, because a CBD address gives a more credible "the practice in the centre of Warrnambool" claim than a suburban shopping centre does. Their weakness is a shopping-centre location that reads as convenient rather than considered, and cosmetic positioning that is broad rather than technically specific. A CBCT-backed implant proposition is a harder claim than a Digital Smile Design one.</p>
+    </div>
+  </div>
+
+  <div class="competitor">
+    <div class="comp-tag med">
+      <div class="type">Threat</div>
+      <div class="threat">B1</div>
+      <div class="type">Established, Quiet</div>
+    </div>
+    <div class="comp-body">
+      <h4>Lady Bay Dental Clinic — 284 Timor Street</h4>
+      <div class="comp-meta">4.2 ★ · ~25 reviews · second site in Terang · ladybaydental.com.au</div>
+      <p>CBD-adjacent on Timor Street with a second location inside the Terang Medical Clinic. Reviews name individual dentists warmly and repeatedly mention follow-up phone calls after treatment — a strong operational signal. But review volume is a fraction of the leaders and the digital presence is comparatively dormant. They hold the Terang catchment; they are not defending Warrnambool aggressively. The closest competitor geographically, and the softest.</p>
+    </div>
+  </div>
+
+  <div class="competitor">
+    <div class="comp-tag med">
+      <div class="type">Threat</div>
+      <div class="threat">B2</div>
+      <div class="type">Modern, Small</div>
+    </div>
+    <div class="comp-body">
+      <h4>Barlow Dental Group — 130 Banyan Street</h4>
+      <div class="comp-meta">4.7 ★ · ~18 reviews</div>
+      <p>One block from Liebig Street and the closest thing to a CBD competitor. Reviews specifically praise online booking, quick appointment availability, off-street parking and modern technology — which tells us the CBD patient in Warrnambool responds to convenience and availability signals. Low review volume suggests no systematic review program. A direct proximity competitor worth monitoring monthly.</p>
+    </div>
+  </div>
+
+  <div class="competitor">
+    <div class="comp-tag low">
+      <div class="type">Threat</div>
+      <div class="threat">C</div>
+      <div class="type">Digitally Absent</div>
+    </div>
+    <div class="comp-body">
+      <h4>Wilde Dental (Koroit St) · Dr Davies Dental (Kepler St) · Raglan Dental (Raglan Pde) · My Dentist (Raglan Pde)</h4>
+      <div class="comp-meta">1–12 reviews each · minimal or no web presence</div>
+      <p>Four established practices with almost no digital footprint between them — single-digit review counts, thin or absent websites, no visible content or advertising. Their patients are loyal and largely offline, and they are not a threat in any search result. They are, however, a meaningful pool of patients who have never been marketed to by anyone, and their principals are the most likely in the market to retire or reduce hours over the next five years. Worth tracking for that reason alone.</p>
+    </div>
+  </div>
+
+  <div class="competitor">
+    <div class="comp-tag low">
+      <div class="type">Threat</div>
+      <div class="threat">C</div>
+      <div class="type">Public</div>
+    </div>
+    <div class="comp-body">
+      <h4>South West Healthcare — 25 Ryot Street</h4>
+      <div class="comp-meta">3.5 ★ · ~100 reviews · public dental</div>
+      <p>The regional public provider. Not a competitor for private patients — a source of them. Victorian public dental general-care waits average 16–17 months, and roughly a third of public episodes are emergency rather than routine. This is a large, captive population of people who need treatment, cannot get it in a useful timeframe, and will convert to private the moment affordability is solved for them.</p>
+    </div>
+  </div>
+
+  <h3><span class="marker">5.1</span>Three businesses that are allies, not competitors</h3>
+
+  <div class="competitor">
+    <div class="comp-tag ally">
+      <div class="type">Relationship</div>
+      <div class="threat">R1</div>
+      <div class="type">Referral</div>
+    </div>
+    <div class="comp-body">
+      <h4>Warrnambool Orthodontic Hub — 171a Liebig Street</h4>
+      <div class="comp-meta">5.0 ★ · ~24 reviews · specialist orthodontics</div>
+      <p>The only dental business trading on Liebig Street, and it does the one thing <span class="ph">[Practice Name]</span> won't. This is close to an ideal referral relationship: you send every alignment case to them, they send every restorative, general, implant and endodontic case back — including the pre- and post-orthodontic restorative work that specialist practices routinely need a general dentist for. A neighbouring main-street practice with a perfect rating and no service overlap is worth a personal introduction in the first fortnight, not a letter in month six.</p>
+    </div>
+  </div>
+
+  <div class="competitor">
+    <div class="comp-tag ally">
+      <div class="type">Relationship</div>
+      <div class="threat">R2</div>
+      <div class="type">Referral</div>
+    </div>
+    <div class="comp-body">
+      <h4>Full-arch and denture providers — Fixed Teeth Australia (Raglan Pde) · Peter Young Dentures Direct (Lava St)</h4>
+      <p>Full-arch is explicitly out of scope, which makes the region's full-arch provider a clean two-way relationship rather than a rival. The denture clinic relationship is more valuable still and runs in the direction people forget: implant-retained overdentures require the implant placement that <span class="ph">[Practice Name]</span> does and the prosthetic work a denture clinic does. Multi-unit implant cases are precisely the practice's stated scope. A prosthetist with an existing patient base of denture wearers is sitting on a list of people who are candidates for implant retention and currently have nowhere local to be referred.</p>
+    </div>
+  </div>
+
+  <h3><span class="marker">5.2</span>What the winners here actually do</h3>
+
+  <p>Across the two market leaders, five behaviours repeat — and each one is directly answerable by a new practice:</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>What the leaders do</th><th>Why it works in Warrnambool</th><th>The new-practice answer</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Relentless review generation</strong></td><td>530 and 280 reviews didn't happen passively — there is a systematic ask in both practices</td><td>Automated post-appointment SMS review request from patient one. Target 100+ in twelve months</td></tr>
+        <tr><td><strong>Extended trading hours</strong></td><td>Warrnambool works. 7:30am and after-6pm slots capture people who can't take time off</td><td>An early-start or one late-night decision is worth more than most ad spend. Own a slot they don't</td></tr>
+        <tr><td><strong>Regional service-area claiming</strong></td><td>Both explicitly market beyond the city boundary</td><td>Town-level landing pages, done properly, from launch</td></tr>
+        <tr><td><strong>Frictionless online booking</strong></td><td>Patients cite it unprompted in reviews of the smaller practices too</td><td>Native booking in the header on every page and in the GBP listing, live on day one</td></tr>
+        <tr><td><strong>A breadth-of-service claim</strong></td><td>"We do what others refer out" is the market's strongest line</td><td>Counter with depth and evidence, not breadth: CBCT-planned implants and endodontics, with the imaging as the proof</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ 06 POSITIONING ============ -->
+<section id="part-6" data-reveal>
+  <div class="section-head">
+    <div class="section-num">§ 06</div>
+    <div>
+      <div class="section-label">Part Six</div>
+      <h2 class="section-title">The<br><em>positioning.</em></h2>
+    </div>
+  </div>
+
+  <p class="lede">A new practice cannot be "a good dentist in Warrnambool" — that role is taken, twice over, by practices with five hundred reviews between them. It has to be something the market can describe in one sentence that neither leader can claim. Four assets make that sentence possible.</p>
+
+  <h3><span class="marker">6.1</span>The dentist on the main street</h3>
+  <p>Every general practice in this market is on an arterial road or in a shopping centre. Liebig Street — the retail and civic spine of the largest city in south-west Victoria, running from the Princes Highway down past Coles, Target, Chemist Warehouse, the Art Gallery, the Lighthouse Theatre and the Civic Green — has no general dentist on it. Being there is not just a convenience claim. It is a Google proximity advantage that competitors cannot buy, a walk-past impression count that no media budget replicates, and a brand statement: <em>this practice is part of the town, not parked on the edge of it.</em> Lunch-hour and pre-work appointments become a genuinely differentiated offer rather than a scheduling detail.</p>
+
+  <h3><span class="marker">6.2</span>The imaging, and what it lets you say</h3>
+  <p>The Vatech CBCT unit is the practice&rsquo;s hardest technical asset, and hard technical assets are what a new practice trades on when it doesn't yet have reviews. Three-dimensional imaging changes what can be honestly claimed about implant planning, root canal diagnosis, wisdom tooth assessment and pathology detection — and critically, it means the scan happens in the room rather than being a separate referral, a separate appointment and a drive to Geelong or Melbourne. For a regional patient, "we do the scan here" is a genuinely material benefit, not a technical footnote.</p>
+  <p>This gets a dedicated page on the website, a section in every implant and endodontic service page, and a recurring role in the content program. It must be written within AHPRA's advertising guidelines — capability and process described plainly, no comparative superiority claims, no guarantees of outcome. GYA writes it that way in the first draft, because the alternative is rewriting it after a complaint.</p>
+
+  <h3><span class="marker">6.3</span>New is a feature — for about eighteen months</h3>
+  <p>Brand-new equipment, brand-new chairs, brand-new sterilisation, a fit-out designed in 2026 for how patients actually feel about being in a dental chair. Anxious patients — a large and underserved segment in every regional market, and one the reviews of every competitor in this town mention repeatedly — respond to a physical environment that doesn't look and smell like the practice that frightened them as a child. This is a limited-time asset and it should be spent hard in the first year: photography, video walkthrough, the fit-out content series in §10, and the launch event.</p>
+
+  <h3><span class="marker">6.4</span>Availability — the thing the leaders can't offer</h3>
+  <p>Two chairs opening with an empty diary is a liability on the balance sheet and an asset in the advertising. The market leader trades six days a week across an exhaustive service list; that produces waiting times. "Appointments available this week" is a claim a new practice can make truthfully and the incumbents structurally cannot, and it is one of the highest-converting messages in dental advertising because it answers the objection the patient hasn't voiced yet. It has a shelf life — use it while it's true.</p>
+
+  <div class="insight">
+    <div class="insight-label">The positioning</div>
+    <h3 class="insight-title">The practice in the centre of Warrnambool — with the imaging to do the complex work, and the availability to see you this week.</h3>
+    <p>Three claims, each independently true, none available to either market leader. <strong>Centre of town</strong> — geographic, defensible, impossible to copy without moving. <strong>The imaging to do the complex work</strong> — CBCT-planned implants, root canal and surgical assessment done here rather than referred out, which is precisely the ground the market leader has staked and the only ground where a new practice can meet them with evidence instead of reviews. <strong>Available this week</strong> — the honest advantage of a new diary, worth more in the first year than anything else in this document. Every page of the website, every ad, every Google post and every piece of launch PR reinforces one of those three. Nothing else gets airtime until they land.</p>
+  </div>
+</section>
+
+<!-- ============ 07 CHANNEL ANALYSIS ============ -->
+<section id="part-7" data-reveal>
+  <div class="section-head">
+    <div class="section-num">§ 07</div>
+    <div>
+      <div class="section-label">Part Seven</div>
+      <h2 class="section-title">Channel<br><em>analysis.</em></h2>
+    </div>
+  </div>
+
+  <p class="lede">Five channels, assessed on the only two questions that matter for a practice with a fixed opening date: how fast does it produce patients, and how early does it have to start to produce them on time?</p>
+
+  <!-- GBP -->
+  <div class="channel">
+    <div class="channel-head">
+      <h4>Google Business Profile</h4>
+      <span class="verdict v-now">Start this week · Highest priority</span>
+    </div>
+    <div class="channel-body">
+      <p>For a local dental practice this is the single most commercially valuable digital asset in existence, and for a pre-opening practice it is also the most time-sensitive. Google's local three-pack sits above every organic result for "dentist near me" and "dentist Warrnambool", and it is the source most AI systems draw on when answering local questions. It is also free.</p>
+
+      <h4>Why it has to start now, not in October</h4>
+      <ul>
+        <li><strong>Google permits a listing to be created ahead of opening</strong> with a future opening date set, typically within a 90-day window. That window opens now for a late-October launch. Creating the profile early means it exists, is indexed, and accrues history before the doors open — rather than being a brand-new entity on the day you most need it to rank.</li>
+        <li><strong>Verification is the bottleneck.</strong> Google increasingly requires video verification showing the premises, signage and equipment, and rejections and re-submissions are common. This can take a fortnight or longer to resolve. Starting it in October means opening without a verified listing, which means being invisible in the map pack in your first weeks of trading.</li>
+        <li><strong>Proximity is the one ranking factor you already win.</strong> A CBD address is a permanent structural advantage in local ranking for every search originating in the town centre. It only pays out if the listing is live, verified and complete.</li>
+      </ul>
+
+      <h4>What we build into it</h4>
+      <ul>
+        <li>Primary category <em>Dentist</em>, with secondary categories mapped precisely to scope — dental clinic, cosmetic dentist, emergency dental service, dental implants provider, endodontist where appropriate. Categories are a direct ranking input and most practices set them once and never audit them.</li>
+        <li>A complete services menu with indicative from-prices. Price data appears in local results, feeds AI answers, and pre-qualifies enquiries.</li>
+        <li>Products, attributes (wheelchair access, parking, payment plans, languages), and full opening hours including any late night or Saturday decision.</li>
+        <li>Pre-populated Q&amp;A covering the questions patients actually ask: health fund claiming, payment plans, emergency availability, parking, new-patient process, whether you're taking new patients.</li>
+        <li>Weekly Google Posts from the moment the profile goes live — fit-out progress before opening, offers and education after. A five-minute weekly task that signals activity to Google's algorithm.</li>
+        <li>Photography: exterior with signage and street context, reception, surgeries, the CBCT, the team. Refreshed quarterly. Real photography outperforms staged stock consistently.</li>
+        <li>Booking link and message enablement wired to the same system the website uses.</li>
+      </ul>
+
+      <div class="callout">
+        <div class="callout-label">Twelve-month target</div>
+        <p><strong>100+ Google reviews at 4.8 or above.</strong> That does not beat Warrnambool Dental — nothing beats 530 reviews in year one. It does put the practice comfortably into the credible-choice set, above every practice in the market except the two leaders, and it is achievable at a review-request response rate of around 15% on a two-chair patient volume.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- GOOGLE ADS -->
+  <div class="channel">
+    <div class="channel-head">
+      <h4>Google Ads</h4>
+      <span class="verdict v-now">Live at T−4 · Fastest path to patients</span>
+    </div>
+    <div class="channel-body">
+      <p>Paid search is the only channel that can deliver booked appointments in week one, because it is the only one where visibility is purchased rather than earned. For a practice with no reviews, no domain authority and no brand recognition, it is not optional — it is the bridge that carries the first six months while the organic and reputation assets mature.</p>
+
+      <h4>The regional advantage</h4>
+      <p>Australian dental is one of the highest-CPC healthcare categories on Google. Metro benchmarks run around $8–15 for "dentist near me" in Sydney and $12–20 for emergency terms in Melbourne. <strong>Regional and rural markets typically clear 30–60% below metro</strong>, which puts realistic Warrnambool CPCs in the order of <strong>$4–8 for general terms and $10–16 for implant terms</strong> — against a first-year patient value of roughly $800–1,500 for a general patient and $3,000–5,000 for a single implant case. That is a materially better auction than any of GYA's metro clients compete in, and it is the strongest single argument for weighting the launch budget toward paid search.</p>
+
+      <h4>Campaign architecture</h4>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Campaign</th><th>Live from</th><th>Budget weight</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Emergency &amp; pain</strong></td><td>Opening day</td><td class="num">25%</td><td>Highest intent in dentistry. Call-only and call extensions. Runs during trading hours</td></tr>
+            <tr><td><strong>General &amp; near-me</strong></td><td>T−4 (waitlist) → opening</td><td class="num">30%</td><td>Volume driver. "Dentist Warrnambool", "dentist near me", "new patients"</td></tr>
+            <tr><td><strong>Implants</strong></td><td>Opening day</td><td class="num">20%</td><td>Highest case value. CBCT is the differentiator in the ad copy</td></tr>
+            <tr><td><strong>Root canal &amp; wisdom teeth</strong></td><td>Opening +2 weeks</td><td class="num">10%</td><td>Problem-driven, price-sensitive. Published pricing wins these</td></tr>
+            <tr><td><strong>Cosmetic &amp; whitening</strong></td><td>Opening +2 weeks</td><td class="num">10%</td><td>Seasonal weighting into Nov–Dec</td></tr>
+            <tr><td><strong>Brand defence</strong></td><td>T−4</td><td class="num">5%</td><td>Cheap. Stops competitors buying your name once you start generating awareness</td></tr>
+            <tr><td>Town campaigns (Port Fairy, Koroit, Camperdown)</td><td>Opening +4 weeks</td><td class="num">Test</td><td>Separate campaigns, separate landing pages, separate budgets</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4>Negative keywords — where the scope decision saves money</h4>
+      <p>Because orthodontics and full-arch are out of scope, a substantial and expensive set of terms comes out of the account before it spends a dollar: braces, Invisalign, clear aligners, orthodontist, All-on-4, full mouth, full arch, teeth in a day. Also excluded from day one: no gap, bulk bill, preferred provider, free dental, public dental, and the usual job, course and student-clinic noise. This is not housekeeping — in a category where implant and ortho clicks run $10–18, a disciplined negative list is worth several hundred dollars a month in avoided waste.</p>
+
+      <h4>Advertising before you're open</h4>
+      <p>From T−4 the ads run, but the ask changes. Copy leads with <em>"Opening late October in the centre of Warrnambool — booking now"</em> and the landing page is the waitlist, not the booking form. This does three things: it starts accumulating Quality Score and auction history four weeks before you need the account performing; it fills the opening-week diary in advance; and it builds a remarketing audience of people who have already shown intent, which is exactly the audience you want to hit on opening day.</p>
+
+      <div class="warn">
+        <div class="warn-label">The measurement requirement</div>
+        <p>None of this is worth running without proper attribution. Before the first campaign goes live we install <strong>Google Tag Manager, GA4, Google Ads conversion tracking, call tracking with dynamic number insertion, and form and booking-widget conversion events</strong> — so that within a fortnight of launch we can report cost per enquiry and cost per booked appointment at the keyword level. A dental account without call tracking is guessing, because in this category the majority of high-value conversions are phone calls, not form fills.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- META -->
+  <div class="channel">
+    <div class="channel-head">
+      <h4>Meta — Facebook &amp; Instagram</h4>
+      <span class="verdict v-soon">Start T−8 · Disproportionately strong in regional markets</span>
+    </div>
+    <div class="channel-body">
+      <p>In metro dental marketing Meta is a supporting channel. In regional Victoria it is not. Warrnambool and its surrounding towns run active, high-participation community Facebook groups where local recommendations carry more weight than any advertisement, and where a new business opening is genuinely newsworthy content rather than an interruption. This is the channel where a new practice can build recognition before it has anything to sell — and it is the reason the pre-opening campaign in §10 is heavily weighted toward it.</p>
+
+      <h4>The cold-start problem</h4>
+      <p>A new Meta account has no pixel data, which means no retargeting pool, no lookalike audiences, and no conversion optimisation signal. Meta's algorithm needs roughly 4–8 weeks of traffic and events before it optimises reliably. That is the entire reason the pixel goes on the site the day the site goes live, and why awareness campaigns start at T−8 rather than at opening: <strong>the first two months of Meta spend are buying data as much as buying attention, and that data has to exist before the launch campaign needs it.</strong></p>
+
+      <h4>Three phases</h4>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Phase</th><th>Window</th><th>Objective</th><th>Creative</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Awareness</strong></td><td>T−8 → T−4</td><td>Reach &amp; video views. Build the retargeting pool</td><td>Fit-out progress, the team, "something's coming to Liebig Street"</td></tr>
+            <tr><td><strong>Lead generation</strong></td><td>T−4 → opening</td><td>Waitlist signups via instant forms</td><td>Opening date, founding-patient offer, "be first in the new chairs"</td></tr>
+            <tr><td><strong>Conversion &amp; retarget</strong></td><td>Opening onward</td><td>Booked appointments</td><td>Service-specific — implants, whitening, new patient exam, December benefits</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4>Targeting</h4>
+      <p>A 25km radius on Warrnambool covers the city, Dennington, Allansford, Woodford, Bushfield and Koroit. Port Fairy, Terang and Camperdown get separate ad sets with their own creative and their own drive-time messaging, because a Port Fairy resident needs a different reason to travel than a Dennington resident needs to choose. Age weighting skews 30–65 for restorative and implant messaging, with a separate parent-targeted set for family and children's dentistry. Every lead flows straight into SmileOx for automated SMS follow-up — in this category, response time to a Meta lead is the single largest determinant of whether it books.</p>
+    </div>
+  </div>
+
+  <!-- AI SEARCH -->
+  <div class="channel">
+    <div class="channel-head">
+      <h4>AI search — AI Overviews, ChatGPT, Gemini, Perplexity</h4>
+      <span class="verdict v-now">Build in at launch · The genuine asymmetry</span>
+    </div>
+    <div class="channel-body">
+      <p>This is the section that most agencies would leave out of a 2026 proposal, and it is the one where a brand-new practice has its clearest structural advantage. The behaviour has already changed: a meaningful and growing share of patients now ask an assistant "who's a good dentist in Warrnambool" or "how much does a dental implant cost in regional Victoria" and act on two or three names in a generated answer, without ever seeing a results page.</p>
+
+      <h4>What the current data says</h4>
+      <ul>
+        <li><strong>AI Overviews now appear on around 68% of local searches</strong> — compared with a traditional local map pack on roughly 39% of the same queries. The AI answer is now the more common result format for local intent, not the exception.</li>
+        <li><strong>Roughly 83% of AI Overview citations come from pages outside Google's top ten organic results.</strong> This is the critical number. It means AI citation is not simply a reward for existing domain authority — which is precisely the thing a new practice cannot have. Structure, specificity and clarity can substitute for age in a way they cannot in classical organic ranking.</li>
+        <li><strong>Only a small fraction of local businesses — on the order of 1%–2% — are currently surfaced by AI assistants at all.</strong> The field is almost entirely uncontested, and none of the Warrnambool practices show any sign of building for it.</li>
+        <li>ChatGPT accounts for the large majority of AI-referred traffic; Google's AI Overviews reach the most raw users because they sit inside ordinary search results; Perplexity is smaller but converts unusually well.</li>
+      </ul>
+
+      <div class="insight">
+        <div class="insight-label">Why this matters more here than almost anywhere</div>
+        <h3 class="insight-title">Classical SEO rewards age. AI citation rewards structure. Only one of those is available to you in October.</h3>
+        <p>Beating a 2018 domain with 530 reviews on "dentist Warrnambool" in organic search is a two-to-three year project. Being one of the two or three practices an AI assistant names when asked about dentists in Warrnambool is a build decision made in September — and it is winnable inside months, because the citation mechanics reward clean structured data, explicit question-and-answer content, consistent entity information and specific extractable facts, rather than accumulated authority. This is the closest thing to a genuine shortcut in the entire proposal, and its window will not stay open.</p>
+      </div>
+
+      <h4>How we build for it</h4>
+      <ul>
+        <li><strong>A full schema stack from launch</strong> — Dentist and LocalBusiness with complete NAP, geo-coordinates, opening hours and payment methods; MedicalProcedure or Service markup on every treatment page; FAQPage on every page that carries questions; Person markup on each clinician; and Review markup once reviews exist. Schema does not guarantee citation, but it removes the ambiguity that stops retrieval systems using a page.</li>
+        <li><strong>Question-phrased headings.</strong> Every service page carries subheadings written the way a patient phrases the question to an assistant — "How much does a dental implant cost in Warrnambool?", "How long does a root canal take?", "Can I claim with my health fund if you're not a preferred provider?" — each answered immediately below in two to four extractable sentences.</li>
+        <li><strong>Publish specifics, especially prices.</strong> AI systems cite pages that contain concrete, checkable facts and skip pages of marketing adjectives. Published from-prices, treatment durations, appointment lengths and payment plan terms are simultaneously the most cite-worthy content on the site, the most useful content for patients, and the content almost no Australian dental practice publishes.</li>
+        <li><strong>Entity consistency everywhere.</strong> Identical name, address, phone and hours across the website, Google Business Profile, HotDoc or the chosen booking platform, healthdirect, Localsearch, True Local, Yellow Pages, the ADA Victorian Branch directory, Apple Maps and Bing Places. Inconsistent data is the most common reason retrieval systems decline to name a business.</li>
+        <li><strong>Earned third-party mentions.</strong> A large share of what an AI says about a local business comes from sources the business doesn't own — local news, directories, community sites and forums. The Standard, the Warrnambool Chamber of Commerce, local community groups and the launch PR in §10 all feed this directly. This is a second, underrated reason the launch press push earns its place in the plan.</li>
+        <li><strong>An llms.txt file and clean crawler access.</strong> Current research suggests llms.txt has limited independent impact, but it costs almost nothing to publish. What genuinely matters is not accidentally blocking AI crawlers — a surprisingly common misconfiguration on new sites, and one that silently forecloses the entire channel.</li>
+      </ul>
+
+      <h4>How we measure it</h4>
+      <p>Monthly, GYA runs a fixed set of roughly twenty prompts across ChatGPT, Gemini, Google AI Overviews and Perplexity — "best dentist in Warrnambool", "dental implants Warrnambool cost", "emergency dentist Warrnambool open now", "dentist near Port Fairy", and so on — and records whether <span class="ph">[Practice Name]</span> is named, how it is described, and which source the assistant drew from. That produces a visibility score and a sentiment read that goes into the monthly report alongside rankings and cost per booking. It is a new metric and we treat it as one: tracked from month one, reported honestly, not oversold.</p>
+    </div>
+  </div>
+
+  <!-- ORGANIC -->
+  <div class="channel">
+    <div class="channel-head">
+      <h4>Organic search &amp; content</h4>
+      <span class="verdict v-slow">Start now · Pays out from month four</span>
+    </div>
+    <div class="channel-body">
+      <p>The slowest channel and the one with the best long-run economics. A new domain takes four to eight weeks simply to be indexed and provisionally assessed, and several months more before it competes for commercial terms. Nothing changes that, which is exactly why it starts in August rather than November — every week the site is live is a week of accumulating age it can never get back later.</p>
+      <p>The program: a technically clean, fast site with correct information architecture; a genuine page for every service in scope; a town page for each priority location in §04.4; a pricing page; an FAQ hub structured for both featured snippets and AI extraction; and two substantial articles a month answering real pre-purchase questions rather than filling a content calendar. Backlink work is local and legitimate — the Chamber of Commerce, community sponsorships, the local press coverage from launch, dental directories, and supplier and referral-partner pages. Realistic expectation: meaningful map-pack visibility within 60–90 days of the profile going live, competitive organic positions on secondary and town terms inside six months, and a genuine fight for "dentist Warrnambool" in year two.</p>
+    </div>
+  </div>
+
+  <h3><span class="marker">7.1</span>Channel summary</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Channel</th><th>Time to first patient</th><th>Cost per patient</th><th>Compounds?</th><th>Start</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Google Ads</strong></td><td>Same day</td><td>Moderate — regional CPCs favourable</td><td>No — stops when spend stops</td><td><strong>T−4</strong></td></tr>
+        <tr><td><strong>Google Business Profile</strong></td><td>2–6 weeks after verification</td><td>Effectively zero</td><td>Yes — strongly</td><td><strong>Now</strong></td></tr>
+        <tr><td><strong>Meta</strong></td><td>2–4 weeks</td><td>Low per lead, moderate per booking</td><td>Partially — audiences persist</td><td><strong>T−8</strong></td></tr>
+        <tr><td><strong>AI search</strong></td><td>4–12 weeks</td><td>Build cost only</td><td>Yes</td><td><strong>At site launch</strong></td></tr>
+        <tr><td><strong>Organic &amp; content</strong></td><td>3–6 months</td><td>Lowest long-run</td><td>Yes — most of all</td><td><strong>Now</strong></td></tr>
+        <tr><td><strong>Referral network</strong></td><td>4–8 weeks</td><td>Time, not money</td><td>Yes</td><td><strong>T−8</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ 08 THE PLAN ============ -->
+<section id="part-8" data-reveal>
+  <div class="section-head">
+    <div class="section-num">§ 08</div>
+    <div>
+      <div class="section-label">Part Eight</div>
+      <h2 class="section-title">The<br><em>plan.</em></h2>
+    </div>
+  </div>
+
+  <p class="lede">Eleven workstreams. Each maps to a gap identified in §03 or an opportunity identified in §06 and §07. Together they form a complete patient acquisition and retention system for a practice starting from nothing.</p>
+
+  <div class="play">
+    <div class="play-tag">Workstream 01 · All tiers · Starts immediately</div>
+    <div class="play-title">Website build &amp; conversion architecture</div>
+    <p>A complete new website, built in two modes: a pre-opening waitlist site live from roughly six weeks out, flipping to the full booking site on opening day. Everything else in this plan funnels through it — every ad click, every map pack tap, every AI citation. Full specification in §09.</p>
+  </div>
+
+  <div class="play">
+    <div class="play-tag">Workstream 02 · All tiers · Starts this week</div>
+    <div class="play-title">Google Business Profile — created, verified, and ageing before you open</div>
+    <p>Create the listing with a future opening date, drive it through verification early, and build it out completely: categories, services with from-prices, attributes, Q&amp;A, photography, weekly Posts and booking integration. This is the highest-priority item in the entire document because it is free, it is the largest single ranking asset in local dental search, and it is the one thing that genuinely cannot be rushed in October.</p>
+  </div>
+
+  <div class="play">
+    <div class="play-tag">Workstream 03 · All tiers</div>
+    <div class="play-title">Local SEO foundation &amp; the town page program</div>
+    <p>Technical SEO built correctly at construction rather than retrofitted: site speed, crawlability, internal linking, canonical structure, XML sitemaps, Search Console. Then the content layer — a genuine page for every in-scope service, and a real landing page for Port Fairy, Koroit, Terang, Camperdown, Portland and the immediate suburbs. Not templated doorway pages, which Google devalues and AI ignores, but pages that actually address why someone in that town would drive to Liebig Street. Plus two substantial articles a month and legitimate local link acquisition.</p>
+  </div>
+
+  <div class="play">
+    <div class="play-tag">Workstream 04 · All tiers · GYA differentiator</div>
+    <div class="play-title">AI search visibility program</div>
+    <p>The full schema stack, question-structured content, published pricing, entity consistency across every directory and platform, crawler access verification, and a monthly measured prompt set across ChatGPT, Gemini, Perplexity and Google AI Overviews. Built into the site at construction — retrofitting this later costs several times what building it in costs now. Detailed in §07.</p>
+  </div>
+
+  <div class="play">
+    <div class="play-tag">Workstream 05 · Growth &amp; Scale · Live at T−4</div>
+    <div class="play-title">Google Ads — the bridge channel</div>
+    <p>Full account build, campaign architecture per §07, negative keyword discipline, landing pages built into the site rather than bolted on, and complete conversion tracking including call tracking with dynamic number insertion. Live four weeks before opening against the waitlist, switching to booking on day one.</p>
+    <p><strong>How GYA charges for media:</strong> the retainer covers strategy, build, management, optimisation and reporting. <strong>Media spend is paid directly by the practice to Google.</strong> GYA never marks up media or runs spend through our own account. The practice owns the ad account, the data and the audiences from day one and keeps them if the relationship ever ends.</p>
+  </div>
+
+  <div class="play">
+    <div class="play-tag">Workstream 06 · Scale · Live at T−8</div>
+    <div class="play-title">Meta — awareness, then leads, then retargeting</div>
+    <p>The three-phase program in §07: pixel installed at site launch, awareness and video-view campaigns from T−8 to build the retargeting pool and the audience data Meta's algorithm needs, instant-form lead generation from T−4 against the waitlist, and service-specific conversion campaigns from opening. Creative production included — the fit-out series, team introductions, the reveal, and the service campaigns. As with Google, <strong>media spend goes directly from the practice to Meta.</strong></p>
+  </div>
+
+  <div class="play">
+    <div class="play-tag">Workstream 07 · Scale · Configured before patient one</div>
+    <div class="play-title">SmileOx CRM — built before you need it, not after</div>
+    <p>SmileOx is the dental-specific CRM and automation platform GYA deploys across its practice network, and a new clinic is the ideal case for it: there is no legacy data to migrate and no existing process to unpick. Configured before opening, it handles instant SMS response to every Meta and web lead (typically inside sixty seconds, which is the single largest determinant of whether a lead books), the waitlist-to-appointment conversion sequence, new patient welcome and pre-appointment messaging, post-treatment follow-up, six-month recall automation, treatment plan follow-up, and the review request engine in Workstream 08.</p>
+    <p>The strategic argument for doing this at launch rather than later: <strong>a practice that starts with recall automation from patient number one never has a reactivation problem.</strong> Practices that retrofit CRM in year three spend the following year trying to win back patients who quietly drifted. SmileOx is normally <strong>$999 per month</strong> as a direct subscription; on the GYA Scale tier it is included at <strong>$199 per month</strong>.</p>
+  </div>
+
+  <div class="play">
+    <div class="play-tag">Workstream 08 · Scale · From patient one</div>
+    <div class="play-title">Review generation — the twelve-month climb</div>
+    <p>Automated SMS review request to every patient shortly after their appointment, with a one-tap link straight to the Google review form, A/B tested on timing and wording. On a two-chair patient volume at a 15% response rate this produces roughly 15–25 reviews a month. Compounded over twelve months that is 100+ reviews — enough to be credible, not enough to catch the leader, which is exactly what §01 said to plan for. Includes reply templates for every review, positive and negative, because response rate is itself a ranking and trust signal.</p>
+  </div>
+
+  <div class="play">
+    <div class="play-tag">Workstream 09 · Scale · Starts at T−8</div>
+    <div class="play-title">Social content — the fit-out series and beyond</div>
+    <p>GYA produces and posts to Facebook and Instagram on a consistent cadence: content design in the practice's brand, captions, scheduling and community management. Before opening this is the fit-out documentary — the empty tenancy, the build, the chairs arriving, the CBCT going in, the team assembling, the sign going up. That content does more than fill a feed; it is the raw material for the Meta awareness campaigns, the Google Posts, and the local press story. After opening it shifts to team, education, patient stories with consent, community involvement and seasonal campaigns.</p>
+  </div>
+
+  <div class="play opt">
+    <div class="play-tag">Workstream 10 · Recommended for all tiers · Starts at T−8</div>
+    <div class="play-title">Referral network — the channel with no media cost</div>
+    <p>Regional healthcare runs on relationships to a degree metro practices consistently underestimate. This workstream is structured outreach, not networking: a mapped list, a sequence, and a tracked outcome for each. <strong>Warrnambool Orthodontic Hub</strong> on Liebig Street — no service overlap, immediate two-way potential, and a neighbour. <strong>Peter Young Dentures Direct</strong> — implant-retained overdenture cases run directly into the practice's multi-unit implant scope. <strong>The regional full-arch provider</strong> — clean two-way referral either side of a scope boundary. <strong>Local GP clinics and pharmacies</strong> — the first place people present with dental pain. <strong>South West Healthcare</strong> — patients facing a 16-month public wait who need a private option with payment plans. <strong>Deakin University's Warrnambool campus and South West TAFE</strong> — a concentrated population of students and staff five minutes from the CBD. GYA builds the collateral, the referral pathway and the tracking; the introductions are made by the practice, because in a town this size they have to be made in person.</p>
+  </div>
+
+  <div class="play opt">
+    <div class="play-tag">Workstream 11 · One-off launch program · T−6 to opening</div>
+    <div class="play-title">The pre-opening launch campaign</div>
+    <p>The highest-leverage six weeks in the practice's commercial life. Local press, community group seeding, the waitlist build, the founding patient offer, the referral introductions, the open day, and the coordinated switch-on of every paid channel on day one. Set out week by week in §10.</p>
+  </div>
+
+  <h3><span class="marker">8.1</span>Sequencing — what runs when</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Workstream</th><th>Tier</th><th>Starts</th><th>First measurable impact</th></tr></thead>
+      <tbody>
+        <tr><td><strong>02 · Google Business Profile</strong></td><td>All</td><td>This week</td><td>Week 3–6 (post-verification)</td></tr>
+        <tr><td><strong>01 · Website build</strong></td><td>All</td><td>This week</td><td>T−6 (waitlist mode live)</td></tr>
+        <tr><td><strong>03 · Local SEO foundation</strong></td><td>All</td><td>At site launch</td><td>Month 3–4, compounding</td></tr>
+        <tr><td><strong>04 · AI search program</strong></td><td>All</td><td>At site launch</td><td>Month 2–3</td></tr>
+        <tr><td><strong>09 · Social &amp; fit-out series</strong></td><td>Scale</td><td>T−8</td><td>T−6 onward</td></tr>
+        <tr><td><strong>06 · Meta awareness</strong></td><td>Scale</td><td>T−8</td><td>T−4 (leads)</td></tr>
+        <tr><td><strong>10 · Referral network</strong></td><td>All (recommended)</td><td>T−8</td><td>Opening +4 weeks</td></tr>
+        <tr><td><strong>07 · SmileOx CRM</strong></td><td>Scale</td><td>T−5</td><td>Opening day</td></tr>
+        <tr><td><strong>05 · Google Ads</strong></td><td>Growth &amp; Scale</td><td>T−4</td><td>T−4 (waitlist) · Opening (bookings)</td></tr>
+        <tr><td><strong>11 · Launch campaign</strong></td><td>One-off</td><td>T−6</td><td>Opening week</td></tr>
+        <tr><td><strong>08 · Review generation</strong></td><td>Scale</td><td>Opening day</td><td>Opening +2 weeks</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ 09 WEBSITE BUILD ============ -->
+<section id="part-9" data-reveal>
+  <div class="section-head">
+    <div class="section-num">§ 09</div>
+    <div>
+      <div class="section-label">Part Nine</div>
+      <h2 class="section-title">Website<br><em>build.</em></h2>
+    </div>
+  </div>
+
+  <p class="lede">Every channel in this proposal terminates on the website. If it doesn't convert, the ad spend is a donation and the SEO is a hobby. Here is exactly what gets built, and why it gets built in two stages rather than one.</p>
+
+  <h3><span class="marker">9.1</span>Two modes, one build</h3>
+
+  <p>A practice that opens in late October needs a live website in September — but a site that invites bookings six weeks before anyone can be seen wastes every visitor it receives. So the site launches in two modes from a single build.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th></th><th>Mode 1 — Pre-opening (from T−6)</th><th>Mode 2 — Open (from day one)</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Hero</strong></td><td>Opening date, location, countdown, waitlist form</td><td>Book online, appointments available this week</td></tr>
+        <tr><td><strong>Primary action</strong></td><td>Join the waitlist — name, phone, email, service of interest</td><td>Book online / call</td></tr>
+        <tr><td><strong>Content live</strong></td><td>All service pages, team, technology, pricing, FAQs, town pages — fully indexed</td><td>Identical, plus reviews, booking widget, offers</td></tr>
+        <tr><td><strong>Purpose</strong></td><td>Start accumulating domain age, indexing and AI citation eligibility · fill the opening diary</td><td>Convert</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The important part is what stays live in both modes: <strong>every substantive content page is published in mode one.</strong> That is six extra weeks of indexing, six extra weeks of AI crawler exposure, and six extra weeks of domain age accruing before the site has to perform — bought for free, purely by sequencing the build correctly.</p>
+
+  <h3><span class="marker">9.2</span>Design direction</h3>
+  <p>The site should look like the practice: new, calm, coastal, precise. Specifically, it should read as a considered independent practice rather than either a corporate dental template or an over-styled cosmetic clinic. That means:</p>
+  <ul>
+    <li><strong>Restrained, cool palette with real photography.</strong> Warrnambool light, the actual tenancy, the actual team. Stock dental photography is the single fastest way to look like every other practice in the country, and patients recognise it immediately.</li>
+    <li><strong>People before services.</strong> A new practice has no reviews and no history, so the clinicians <em>are</em> the trust signal. Proper photography, individual clinician pages, real credentials, stated clinical interests.</li>
+    <li><strong>The location made explicit.</strong> Address, map, the walk from the Liebig Street shops, the parking options named individually, the bus interchange, the station. In a regional town, "where is it and where do I park" is a genuine pre-booking question and almost no practice answers it properly.</li>
+    <li><strong>Technology stated plainly.</strong> A dedicated page for CBCT imaging and what it enables clinically — written to AHPRA advertising standards, describing capability and process rather than making comparative or outcome claims.</li>
+    <li><strong>Booking as the single obvious action</strong> on every page, sticky in the header on desktop and pinned to the bottom of the screen on mobile.</li>
+    <li><strong>Mobile-first, genuinely.</strong> The clear majority of local dental searches resolve on a phone, and in a regional market the proportion is higher, not lower.</li>
+  </ul>
+
+  <h3><span class="marker">9.3</span>Page architecture</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Page</th><th>Purpose</th><th>Stage</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Home</strong></td><td>Positioning, services, team, location, booking. Waitlist hero in mode one</td><td>Launch</td></tr>
+        <tr><td><strong>About the practice</strong></td><td>Why it was opened, philosophy, the fit-out, what "new" means for a patient</td><td>Launch</td></tr>
+        <tr><td><strong>Our team</strong> + individual clinician pages</td><td>The primary trust asset in year one. Photography, credentials, clinical interests</td><td>Launch</td></tr>
+        <tr><td><strong>Our technology / Vatech CBCT imaging</strong></td><td>The hardest differentiator. High SEO and AI-citation value</td><td>Launch</td></tr>
+        <tr><td><strong>General dentistry</strong></td><td>Check-up and clean, fillings, extractions, hygiene. Volume driver</td><td>Launch</td></tr>
+        <tr><td><strong>Dental implants</strong></td><td>Single and multiple units. CBCT planning central. Highest case value</td><td>Launch</td></tr>
+        <tr><td><strong>Root canal treatment</strong></td><td>High intent, price-sensitive, fear-heavy. Published pricing wins it</td><td>Launch</td></tr>
+        <tr><td><strong>Cosmetic dentistry</strong></td><td>Veneers, bonding, smile improvement. Consent-compliant gallery when cases exist</td><td>Launch</td></tr>
+        <tr><td><strong>Teeth whitening</strong></td><td>Promo-friendly, fast conversion, launch-offer candidate</td><td>Launch</td></tr>
+        <tr><td><strong>Emergency dentistry</strong></td><td>What to do right now, same-day availability, phone-first design</td><td>Launch</td></tr>
+        <tr><td><strong>Wisdom teeth</strong></td><td>High intent, CBCT-supported assessment</td><td>Launch</td></tr>
+        <tr><td><strong>Crowns &amp; restorative</strong></td><td>Core of a 42-median-age market</td><td>Launch</td></tr>
+        <tr><td><strong>Children &amp; family</strong></td><td>Household lifetime value. Child Dental Benefits Schedule eligibility explained</td><td>Launch</td></tr>
+        <tr><td><strong>Fees &amp; payment plans</strong></td><td>Published from-prices, payment plan terms, health fund claiming explained. Highest-value page on the site</td><td>Launch</td></tr>
+        <tr><td><strong>New patients</strong></td><td>What happens at a first visit, how long it takes, what it costs, what to bring</td><td>Launch</td></tr>
+        <tr><td><strong>Book online</strong></td><td>Native booking integration</td><td>Opening day</td></tr>
+        <tr><td><strong>Contact &amp; finding us</strong></td><td>Map, parking named individually, bus interchange, station, accessibility</td><td>Launch</td></tr>
+        <tr><td><strong>FAQs</strong></td><td>Question-structured hub feeding FAQPage schema and AI extraction</td><td>Launch</td></tr>
+        <tr><td>Town pages — Port Fairy · Koroit · Terang · Camperdown · Portland</td><td>Genuine local landing pages per §04.4</td><td>Wave 2 (opening +2–6 wks)</td></tr>
+        <tr><td>Suburb pages — Dennington · Allansford · Woodford · Bushfield</td><td>Immediate catchment coverage</td><td>Wave 2</td></tr>
+        <tr><td><strong>Opening soon / waitlist</strong></td><td>Mode-one landing page and paid traffic destination. Retires at opening</td><td>T−6 only</td></tr>
+        <tr><td>Blog / patient education</td><td>Two articles a month from launch</td><td>Ongoing</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3><span class="marker">9.4</span>Conversion features</h3>
+  <ul>
+    <li><strong>Native online booking</strong> integrated in the header and on every service page. HotDoc integrates deepest with Australian practice management systems and is what the market leader already uses — patients in Warrnambool are habituated to it.</li>
+    <li><strong>Click-to-call everywhere</strong> on mobile, with call tracking and conversion attribution on every number.</li>
+    <li><strong>The waitlist form</strong> in mode one, feeding directly into SmileOx with automated SMS acknowledgement and a booking invitation when the diary opens.</li>
+    <li><strong>A founding patient offer</strong> — one clear, prominent, AHPRA-compliant opening offer. Our recommendation is a packaged new patient exam, clean, and X-rays at a stand-out rate, because it acquires whole households rather than single treatments.</li>
+    <li><strong>Payment plan messaging in the hero</strong>, not buried in the fees page. This is the affordability answer to no preferred provider status and it needs to be visible before a patient forms a price objection.</li>
+    <li><strong>Health fund claiming explained</strong> in plain language — that you can claim with any fund on the spot via HICAPS. Most patients don't know this and assume otherwise.</li>
+    <li><strong>Live Google review feed</strong> on the homepage and service pages, switched on once there are reviews to show — deliberately not before.</li>
+    <li><strong>Sticky mobile action bar</strong> — book and call, always visible.</li>
+  </ul>
+
+  <h3><span class="marker">9.5</span>Technical foundation</h3>
+  <ul>
+    <li>Hand-built static HTML — the GYA standard for dental. Faster than WordPress, materially more secure, lower lifetime maintenance cost, and no plugin surface to be exploited.</li>
+    <li>Deployed on Vercel with global CDN and sub-second load times on regional mobile networks — which matter more here than in a metro market.</li>
+    <li>Full schema stack per §07: Dentist, LocalBusiness, Service, FAQPage, Person, and Review once reviews exist.</li>
+    <li>GA4, Google Search Console, Google Tag Manager, Meta Pixel and Google Ads conversion tracking installed and validated before launch, not after.</li>
+    <li>Crawler access verified for both search and AI crawlers; llms.txt published.</li>
+    <li>Every page reviewed against AHPRA dental advertising guidelines before publication. This is not a compliance checkbox — testimonials, before-and-after imagery and comparative claims are the three most common sources of practitioner notifications, and all three live on dental websites.</li>
+    <li>SSL, daily backups, monitored uptime.</li>
+  </ul>
+
+  <h3><span class="marker">9.6</span>Content &amp; imagery</h3>
+  <p>GYA writes 100% of the site copy, briefed against the positioning in §06 and reviewed in two rounds with <span class="ph">[Dr Principal]</span>. Because there are no existing assets, imagery is a genuine dependency rather than an afterthought: we recommend a half-day professional photography session on site once the fit-out is complete — team portraits, surgeries, reception, exterior with signage, and the CBCT. GYA supplies premium licensed imagery and bespoke design to bridge any gaps and to carry the site through mode one before the fit-out is photographable. The site launches with a complete, coherent visual identity from the first day it is live.</p>
+</section>
+
+<!-- ============ 10 SIX-WEEK COUNTDOWN ============ -->
+<section id="part-10" data-reveal>
+  <div class="section-head">
+    <div class="section-num">§ 10</div>
+    <div>
+      <div class="section-label">Part Ten</div>
+      <h2 class="section-title">The six-week<br><em>countdown.</em></h2>
+    </div>
+  </div>
+
+  <p class="lede">The final six weeks before opening are the highest-leverage marketing window the practice will ever have — a genuine news event, a clean story, and a town that has never heard the name before. This is the week-by-week execution plan.</p>
+
+  <div class="warn">
+    <div class="warn-label">Before the countdown starts</div>
+    <p>The six-week plan below assumes a set of things are already done. Between <strong>now and mid-September</strong>: the Google Business Profile is created and through verification, the domain is registered, the website is built and in mode one, the Meta pixel is live and awareness campaigns have been running from T−8, the Google Ads account is built and awaiting activation, SmileOx is configured, and the referral introductions have begun. <strong>The countdown is the amplification phase, not the build phase.</strong> If the build hasn't happened, there is nothing to amplify.</p>
+    <p class="fine">Dates assume a Monday 26 October opening. All weeks shift with the actual date — we lock it at kick-off.</p>
+  </div>
+
+  <div class="tminus">
+
+    <div class="tweek">
+      <div class="tweek-mark"><span class="big">T<sup>−</sup>6</span><span class="dates">w/c Mon 14 Sep</span></div>
+      <div>
+        <h4>Go public.</h4>
+        <ul>
+          <li><strong>Website flips to mode one — live, indexed, waitlist open.</strong> Every service page, team page, technology page, fees page and FAQ published. This is the single most important date before opening day.</li>
+          <li>Google Business Profile switches to public with the opening date visible. First Google Post published.</li>
+          <li>Announcement post across Facebook and Instagram: the practice exists, here's who we are, here's where, here's when.</li>
+          <li>Community group seeding begins — a genuine, non-salesy introduction post in the main Warrnambool, Port Fairy and Koroit community groups. Written to read like a local telling neighbours, because in a town this size that is exactly what it needs to be.</li>
+          <li>Meta campaigns switch from pure awareness to awareness + waitlist lead generation.</li>
+          <li>Press outreach to <em>The Standard</em> and regional radio. The angle is not "a dentist is opening" — it is <em>a new practice is opening on Liebig Street with 3D imaging, bringing complex treatment that currently gets referred to Geelong or Melbourne back into Warrnambool.</em> That is a regional health access story, and regional press runs those.</li>
+          <li>Directory and citation build: healthdirect, HotDoc, Localsearch, True Local, Yellow Pages, ADA Victorian Branch, Apple Maps, Bing Places. Consistent NAP everywhere — this feeds §07's AI visibility work directly.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tweek">
+      <div class="tweek-mark"><span class="big">T<sup>−</sup>5</span><span class="dates">w/c Mon 21 Sep</span></div>
+      <div>
+        <h4>Build the story.</h4>
+        <ul>
+          <li>Fit-out content series begins in earnest — two posts a week showing real progress. Chairs arriving, the CBCT installed, the surgery taking shape. This content consistently outperforms polished brand content in regional markets because it is genuinely interesting to people who walk past the tenancy.</li>
+          <li>Team announcement content: each clinician and key staff member introduced individually with a proper portrait and a short, human bio.</li>
+          <li>Referral introductions executed in person — Warrnambool Orthodontic Hub first, then the denture clinic, then GP clinics and pharmacies. GYA supplies the referral cards, the one-page capability summary and the scope-boundary explainer.</li>
+          <li>Photography session scheduled for T−2, once the fit-out will photograph well.</li>
+          <li>School holiday period begins in Victoria — social reach typically lifts, paid CPMs soften slightly. Weight organic posting up this week.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tweek">
+      <div class="tweek-mark"><span class="big">T<sup>−</sup>4</span><span class="dates">w/c Mon 28 Sep</span></div>
+      <div>
+        <h4>Paid search switches on.</h4>
+        <ul>
+          <li><strong>Google Ads goes live</strong> against the waitlist landing page — general, near-me and brand campaigns. Four weeks of auction history and Quality Score accumulation before the account has to perform on opening day.</li>
+          <li>Meta lead generation scales up. Founding patient offer announced and made concrete.</li>
+          <li>Waitlist conversion sequence activated in SmileOx: every signup gets immediate SMS acknowledgement, a welcome sequence, and a place in the day-one booking queue.</li>
+          <li>Local business outreach — Chamber of Commerce membership, and introductions along the Liebig Street retail strip. Neighbouring businesses are both a referral source and the people who will answer "is there a dentist around here?" for the next decade.</li>
+          <li>Sponsorship and community decisions locked — a local sports club, school or community event. In a regional town this buys more genuine goodwill per dollar than any advertising, and it produces the local backlinks that §07 needs.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tweek">
+      <div class="tweek-mark"><span class="big">T<sup>−</sup>3</span><span class="dates">w/c Mon 5 Oct</span></div>
+      <div>
+        <h4>Open the diary.</h4>
+        <ul>
+          <li><strong>Pre-booking opens.</strong> Waitlist members are contacted first and get first choice of opening-week appointments — which is both a genuine perk and the mechanism that converts a soft list into a hard diary.</li>
+          <li>Booking system goes live on the website in parallel with waitlist priority. Practice management system, booking widget and SmileOx integration tested end to end with real bookings.</li>
+          <li>Open day announced and dated — Saturday of launch week.</li>
+          <li>Press follow-up. If <em>The Standard</em> hasn't run the story, offer a site visit and photography during the final fit-out — a photograph of a nearly finished surgery is a far easier yes than a press release.</li>
+          <li>Google Ads expands: implant and emergency campaigns built and staged, ready to activate on opening day.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tweek">
+      <div class="tweek-mark"><span class="big">T<sup>−</sup>2</span><span class="dates">w/c Mon 12 Oct</span></div>
+      <div>
+        <h4>Make it real.</h4>
+        <ul>
+          <li><strong>Professional photography session</strong> — team, surgeries, reception, exterior with signage, the CBCT. This shoot supplies the website, the ads, Google Business Profile, social and press for the next twelve months. It is worth doing properly once.</li>
+          <li>Website updated with real photography throughout, replacing licensed imagery.</li>
+          <li>Signage goes up. Photograph it, post it. On a main retail street this is the highest-impression-count asset the practice owns and the moment it appears is genuinely newsworthy locally.</li>
+          <li>Open day invitations distributed — waitlist, community groups, referral partners, neighbouring businesses, paid social event promotion.</li>
+          <li>Full technical QA: every form, every phone number, every conversion event, every booking path tested on mobile and desktop.</li>
+          <li>Front desk briefing. GYA supplies phone scripts, the enquiry-handling process, offer terms and the review request workflow. <strong>The most common way a well-executed dental launch fails is an unprepared front desk on a busy first week.</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tweek">
+      <div class="tweek-mark"><span class="big">T<sup>−</sup>1</span><span class="dates">w/c Mon 19 Oct</span></div>
+      <div>
+        <h4>Final approach.</h4>
+        <ul>
+          <li>Countdown content daily across social and Google Posts — the last week of build, final touches, the team ready.</li>
+          <li>Final SMS and email to the full waitlist: we open Monday, here's how to book, here's the founding patient offer, here's the open day.</li>
+          <li>All Google Ads campaigns staged and scheduled to activate at open. Ad copy switches from "opening soon" to "now open, appointments available this week".</li>
+          <li>Meta creative refreshed for launch. Retargeting audiences — now eight weeks deep — activated against every site visitor and video viewer.</li>
+          <li>Review request workflow tested end to end so it is running from the first patient, not the fiftieth.</li>
+          <li>Reconfirm every opening-week booking by SMS. No-shows in week one cost more than at any other point in the practice's life.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tweek launch">
+      <div class="tweek-mark"><span class="big">T<sup>0</sup></span><span class="dates">w/c Mon 26 Oct<br>Opening week</span></div>
+      <div>
+        <h4>Open.</h4>
+        <ul>
+          <li><strong>Monday: doors open.</strong> Diary carries pre-booked waitlist appointments. Website flips to mode two. Google Business Profile switches from "opening soon" to open, with full hours.</li>
+          <li>All paid campaigns live at full launch budget — Google Ads across every campaign, Meta conversion and retargeting.</li>
+          <li>Review requests begin with patient one.</li>
+          <li>Daily social content through the week: first patients (with consent), the team at work, the practice in use.</li>
+          <li><strong>Saturday: open day.</strong> Practice tours, meet the team, coffee, something for kids, a CBCT demonstration. Book appointments on the day. Photograph everything. In a regional town an open day at a new main-street business genuinely draws a crowd, and it converts curiosity into a booked diary faster than any other single activity in this document.</li>
+          <li>Press release issued on opening. Follow up with <em>The Standard</em> and regional radio with open day photography.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tweek">
+      <div class="tweek-mark"><span class="big">+1<span style="font-size:15px"> to </span>+2</span><span class="dates">Nov</span></div>
+      <div>
+        <h4>Convert the attention.</h4>
+        <ul>
+          <li>Open day follow-up: every attendee who didn't book gets a personal follow-up through SmileOx within 48 hours.</li>
+          <li>Review push — the opening cohort is the most enthusiastic patient group the practice will ever have. Target 20+ reviews inside the first fortnight.</li>
+          <li><strong>The December health fund campaign launches.</strong> Extras limits expire 31 December and this is the strongest seasonal demand event in Australian dentistry. Landing on it six weeks after opening is close to ideal timing and it should be the practice's largest campaign of the year.</li>
+          <li>First performance review with <span class="ph">[Dr Principal]</span>: enquiries, bookings, cost per booked appointment by channel, chair utilisation, waitlist conversion rate.</li>
+          <li>Budget reallocated toward whichever campaigns are actually producing booked appointments rather than whichever produced the most clicks.</li>
+          <li class="fine">Note: Melbourne Cup Day falls on Tuesday 3 November — a Victorian public holiday. Factor it into week-one-of-November trading and campaign scheduling.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="insight">
+    <div class="insight-label">Why the six weeks matter more than the six months after</div>
+    <h3 class="insight-title">A practice opening is a one-time news event. It is never newsworthy again.</h3>
+    <p>Local press will cover a new practice opening on the main street once. Community groups will welcome a new local business once. Neighbouring retailers will notice the fit-out once. The open day happens once. Every one of those is free reach that no amount of subsequent media spend reproduces, and all of it expires within about a fortnight of the doors opening. The difference between a launch that uses this window and one that doesn't is, in GYA's experience across new-clinic engagements, roughly six months of ramp — the difference between reaching healthy chair utilisation in month four and reaching it in month ten. On a two-chair practice carrying full fixed costs from day one, that gap is the single largest number in this document.</p>
+  </div>
+</section>
+
+<!-- ============ 11 FIRST 90 DAYS ============ -->
+<section id="part-11" data-reveal>
+  <div class="section-head">
+    <div class="section-num">§ 11</div>
+    <div>
+      <div class="section-label">Part Eleven</div>
+      <h2 class="section-title">First 90 days<br><em>open.</em></h2>
+    </div>
+  </div>
+
+  <p class="lede">Late October through January. The launch attention fades, the seasonal peak arrives and then empties, and the practice's real baseline becomes visible for the first time. This is the phase where a launch either compounds or stalls.</p>
+
+  <div class="phase">
+    <div class="phase-range">Month 01<span class="big">Nov</span><span class="sub">Capture the peak</span></div>
+    <div>
+      <h4>Launch momentum into the strongest demand window of the year.</h4>
+      <div class="row"><strong class="k">Weeks 1–2</strong>Open day follow-up. Review generation at maximum intensity. All paid channels at launch budget. Daily social from inside a working practice.</div>
+      <div class="row"><strong class="k">Weeks 3–4</strong>December health fund campaign live across Google, Meta, email and SMS. First full month of channel attribution data. Town landing pages published — Port Fairy and Koroit first.</div>
+      <div class="row"><strong class="k">Reporting</strong>First monthly report: enquiries and bookings by channel, cost per booked appointment, chair utilisation, review count, GBP impressions and actions, first AI visibility read.</div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-range">Month 02<span class="big">Dec</span><span class="sub">Peak season</span></div>
+    <div>
+      <h4>The busiest six weeks in the dental calendar.</h4>
+      <div class="row"><strong class="k">Weeks 5–7</strong>Benefits-expiry campaign at full weight. Budget shifted toward whitening, general and restorative — treatments patients can complete before 31 December. Emergency campaign scaled for the holiday period, when most local practices reduce hours.</div>
+      <div class="row"><strong class="k">Week 8</strong>Holiday trading hours published everywhere — website, Google Business Profile, social, Google Posts. Being the practice that is visibly open when others aren't is worth real money in late December.</div>
+      <div class="row"><strong class="k">Ongoing</strong>Review target: 40+ cumulative by end of December. Recall automation now populating January and February from November's new patients.</div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-range">Month 03<span class="big">Jan</span><span class="sub">Build while it's quiet</span></div>
+    <div>
+      <h4>The predictable lull — and the right time to build.</h4>
+      <div class="row"><strong class="k">Weeks 9–10</strong>Paid budget trimmed through the deepest part of the lull, then scaled hard for the February reset as new annual extras limits open. Remaining town pages published. Content program at full cadence.</div>
+      <div class="row"><strong class="k">Weeks 11–12</strong>Back-to-school family campaign. Child Dental Benefits Schedule messaging for eligible families. Referral partner review — which relationships actually produced patients, and which need a second conversation.</div>
+      <div class="row"><strong class="k">Week 13</strong>90-day strategic review with <span class="ph">[Dr Principal]</span>: full channel economics, cost per new patient by source, chair utilisation trend, review trajectory, organic and AI visibility movement, and the budget plan for the year ahead.</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <div class="callout-label">What good looks like at day 90</div>
+    <ul>
+      <li><strong>40–60 Google reviews</strong> at 4.7 or above — ahead of every practice in the market except the two leaders.</li>
+      <li><strong>Chair utilisation trending toward 60–70%</strong> across two chairs, with a visible upward slope rather than a plateau.</li>
+      <li><strong>A known cost per booked appointment</strong> for every channel, measured rather than estimated — which is what makes month four's budget a decision rather than a guess.</li>
+      <li><strong>Map pack presence</strong> for "dentist near me" searches originating in the Warrnambool CBD.</li>
+      <li><strong>First AI citations</strong> appearing for Warrnambool dental prompts.</li>
+      <li><strong>A patient database with recall automation already running</strong> — which is the asset that makes year two cheaper than year one.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 12 INVESTMENT ============ -->
+<section id="part-12" data-reveal>
+  <div class="section-head">
+    <div class="section-num">§ 12</div>
+    <div>
+      <div class="section-label">Part Twelve</div>
+      <h2 class="section-title">How we work<br><em>together.</em></h2>
+    </div>
+  </div>
+
+  <p class="lede">Two one-off items — the website and the launch program — plus a monthly retainer tier. Paid media spend on Google and Meta is always paid directly by the practice to the platforms. GYA never marks up media.</p>
+
+  <h3><span class="marker">12.1</span>The one-off build</h3>
+
+  <div class="stats">
+    <div class="stat"><span class="n">$6,500</span><span class="l">Website build · Complete · One-off</span></div>
+    <div class="stat"><span class="n">$3,500</span><span class="l">Pre-opening launch program · T−8 to opening · One-off</span></div>
+    <div class="stat"><span class="n">~6 wks</span><span class="l">Kick-off to mode-one site live</span></div>
+  </div>
+
+  <p>The website build covers the complete site per §09 — architecture, design, all copy, imagery sourcing and design, both modes, the full schema and AI-readiness stack, all tracking and analytics installation, AHPRA compliance review, and deployment. The launch program covers everything in §10 that isn't ongoing retainer work: the launch strategy, press outreach and materials, community group strategy, referral collateral, the founding patient offer, the open day plan and promotion, front desk scripts and enquiry-handling process, and the coordinated day-one switch-on of every channel.</p>
+  <p class="fine">All amounts AUD, excluding GST. Professional photography is quoted separately and booked locally — we recommend budgeting for a half-day session at T−2.</p>
+
+  <h3><span class="marker">12.2</span>Three monthly tiers</h3>
+
+  <div class="tiers">
+    <div class="tier dim">
+      <div class="tier-name">Tier 01 · Foundation</div>
+      <div class="tier-title">Organic only</div>
+      <div class="tier-price">$1,690<span class="small">/mo</span></div>
+      <div class="tier-sub">Not recommended for a new clinic — see the note below</div>
+      <ul>
+        <li>Google Business Profile management and weekly Google Posts</li>
+        <li>Local SEO foundation — technical, on-page, schema, internal linking</li>
+        <li>AI search visibility program and monthly prompt-set measurement</li>
+        <li>Two SEO and AHPRA-compliant articles per month</li>
+        <li>Town and suburb landing page rollout</li>
+        <li>Local backlink and citation building</li>
+        <li>Monthly one-page performance report</li>
+        <li>Quarterly strategy review</li>
+      </ul>
+    </div>
+
+    <div class="tier">
+      <div class="tier-name">Tier 02 · Growth</div>
+      <div class="tier-title">Organic + Google Ads</div>
+      <div class="tier-price">$2,500<span class="small">/mo</span></div>
+      <div class="tier-sub">The realistic minimum for a practice opening from zero</div>
+      <ul>
+        <li>Everything in Foundation</li>
+        <li><strong>Google Ads build and management</strong> — full campaign architecture per §07, ongoing optimisation, negative keyword management</li>
+        <li>Dedicated paid landing pages built into the site</li>
+        <li>Complete conversion tracking — GA4, GTM, call tracking with dynamic number insertion, booking and form events</li>
+        <li>Monthly cost-per-booked-appointment reporting at keyword level</li>
+        <li>Monthly strategy call</li>
+        <li><strong>Media spend paid directly by the practice to Google</strong> — never marked up</li>
+      </ul>
+    </div>
+
+    <div class="tier featured">
+      <div class="tier-name">Tier 03 · Scale</div>
+      <div class="tier-title">The full launch engine</div>
+      <div class="tier-price">Custom<span class="small">/mo</span></div>
+      <div class="tier-sub">Sized at kick-off against ramp targets and chair capacity</div>
+      <ul>
+        <li>Everything in Growth</li>
+        <li><strong>Meta lead generation</strong> — Facebook and Instagram, all three phases per §07, creative production included</li>
+        <li><strong>SmileOx CRM</strong> — configured before opening. Normally $999/mo direct; included at $199/mo on Scale</li>
+        <li><strong>Review generation system</strong> — automated post-appointment SMS, A/B tested, with reply management</li>
+        <li>Full patient automation — waitlist conversion, welcome, pre-appointment, post-treatment, recall, treatment plan follow-up</li>
+        <li><strong>Social content design and posting</strong> — including the fit-out series</li>
+        <li>Referral network collateral and tracking</li>
+        <li>Fortnightly strategy calls through the launch phase</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="warn">
+    <div class="warn-label">Why Foundation is the wrong tier for this practice</div>
+    <p>Foundation is a good tier for an established practice with an existing patient base, existing reviews and existing brand recognition, which wants to compound its organic position over time. <span class="ph">[Practice Name]</span> has none of those things on 26 October. Organic search and AI visibility are the right long-run investments and they are in every tier — but they pay out from month three or four, and the practice's fixed costs start on day one. <strong>Something has to carry the first ninety days, and paid acquisition is the only channel that can.</strong> Growth is the realistic floor. Scale is what we'd recommend, primarily because of what Workstreams 06, 07 and 08 do together: Meta produces leads, SmileOx responds to them inside a minute, and the review engine converts every treated patient into the reputation asset that makes year two dramatically cheaper than year one.</p>
+  </div>
+
+  <h3><span class="marker">12.3</span>Recommended media budget</h3>
+
+  <p>Paid directly by the practice to Google and Meta. These are recommendations sized against two chairs and a ramp to roughly 40–50 new patients a month, not fixed commitments — we review them monthly against actual cost per booked appointment.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Period</th><th class="num">Google Ads</th><th class="num">Meta</th><th>Objective</th></tr></thead>
+      <tbody>
+        <tr><td>Aug – mid Sep <em>(T−8 to T−6)</em></td><td class="num">—</td><td class="num">$600–900</td><td>Awareness. Build pixel data and the retargeting pool</td></tr>
+        <tr><td>Mid Sep – Sep end <em>(T−6 to T−4)</em></td><td class="num">—</td><td class="num">$900–1,200</td><td>Waitlist lead generation</td></tr>
+        <tr><td>October <em>(T−4 to opening)</em></td><td class="num">$1,200–1,800</td><td class="num">$1,200–1,500</td><td>Waitlist + Quality Score accumulation</td></tr>
+        <tr><td><strong>November</strong> <em>(launch month)</em></td><td class="num">$2,500–3,000</td><td class="num">$1,200–1,500</td><td>Peak spend. Fill the diary</td></tr>
+        <tr><td><strong>December</strong> <em>(benefits expiry)</em></td><td class="num">$2,500–3,000</td><td class="num">$1,200–1,500</td><td>Strongest seasonal window of the year</td></tr>
+        <tr><td>January <em>(lull)</em></td><td class="num">$1,500–2,000</td><td class="num">$600–900</td><td>Trim through the lull, scale into February reset</td></tr>
+        <tr><td>February onward <em>(steady state)</em></td><td class="num">$2,000–2,500</td><td class="num">$800–1,200</td><td>Sustained acquisition, reviewed monthly</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="fine">Total launch-phase media across August to January: approximately $13,000–17,000 direct to the platforms. This is the practice's spend, not GYA revenue.</p>
+
+  <h3><span class="marker">12.4</span>The economics</h3>
+
+  <p>The case for spending this in the first six months rather than easing into it rests on four numbers:</p>
+
+  <ul>
+    <li><strong>The acquisition maths clears comfortably at regional CPCs.</strong> At $4–8 per click on general terms, a 10% landing page conversion rate produces an enquiry at roughly $50–80. At a 55–65% enquiry-to-booked-and-attended rate, that is a new patient at roughly <strong>$85–145</strong> — against a first-year general patient value of $800–1,500 and a single implant case of $3,000–5,000. Even at the pessimistic end of every assumption, general dentistry returns several times over and implants return an order of magnitude.</li>
+    <li><strong>Empty chair time is the most expensive thing in the practice.</strong> Rent, equipment finance, the CBCT and wages run at full cost from the first Monday whether the chairs are occupied or not. Every week the practice sits below capacity is a permanent loss that no later month recovers. Marketing spend in the ramp is not a cost against revenue — it is the mechanism for shortening the period during which the fixed costs have nothing to cover them.</li>
+    <li><strong>Dental patient value compounds unusually well.</strong> A patient acquired in November is, on average, a six-monthly patient for the next five to ten years, plus their household. The acquisition cost is paid once; the revenue recurs. This is structurally different from almost every other consumer category and it is why front-loading acquisition spend in a new practice is rational rather than reckless.</li>
+    <li><strong>Reputation, once built, replaces spend.</strong> The reason the market leader can operate the way it does is 530 reviews. Every review the practice earns in year one reduces the cost of every subsequent patient across every channel, because it lifts conversion on the map pack, the website, the ads and the AI answer simultaneously. That is what the Scale tier is actually buying: not this month's leads, but next year's cost base.</li>
+  </ul>
+
+  <div class="callout">
+    <div class="callout-label">Terms</div>
+    <p><strong>Media is always direct.</strong> The practice pays Google and Meta directly and owns the accounts, the data and the audiences permanently. GYA never marks up media or runs spend through our own accounts.</p>
+    <p><strong>Scale tier pricing is sized at kick-off</strong> against the ramp target, the Meta creative volume and the SmileOx automation scope. We'd rather scope it properly with <span class="ph">[Dr Principal]</span> than publish a number that turns out to be wrong in either direction.</p>
+    <p><strong>No long lock-in.</strong> Retainers are month-to-month after an initial three-month commitment. For a launch engagement we'd ask for the launch window itself — kick-off through to 90 days post-opening — because a launch judged at week six is judged before it has finished happening.</p>
+  </div>
+</section>
+
+<!-- ============ 13 WHY GYA ============ -->
+<section id="part-13" data-reveal>
+  <div class="section-head">
+    <div class="section-num">§ 13</div>
+    <div>
+      <div class="section-label">Part Thirteen</div>
+      <h2 class="section-title">Why<br><em>GYA.</em></h2>
+    </div>
+  </div>
+
+  <p class="lede">The realistic alternatives are a local generalist agency, a freelancer, a national dental marketing group, or handling it in-house while also opening a practice. Six reasons to choose differently.</p>
+
+  <ol>
+    <li><strong>Dental is the whole business, not a vertical.</strong> 100+ active dental clinics means we see what is working across the network in real time — including in regional Victorian markets specifically. A launch plan built on metro assumptions over-invests in the wrong channels, and the only way to know that is to be running both.</li>
+    <li><strong>We have opened practices before.</strong> A greenfield launch is a different discipline from growing an established clinic. The sequencing constraints in §03 — verification lead times, domain age, pixel seeding, Quality Score accumulation — are the kind of thing that is obvious in hindsight and expensive to learn on your own opening.</li>
+    <li><strong>One partner, one invoice, one accountable team.</strong> Website, SEO, AI search, Google Ads, Meta, CRM, content and reporting under one roof. No arguments about whether the ads underperformed or the site failed to convert, because the same team is responsible for both.</li>
+    <li><strong>AHPRA compliance is written in, not reviewed at the end.</strong> Every claim, image, offer and testimonial is drafted against the Dental Board's advertising guidelines from the first version. The regulatory exposure sits with the practitioner's registration, not the agency, which is exactly why we treat it as a design constraint rather than a legal check.</li>
+    <li><strong>SmileOx specialists.</strong> GYA is one of a small number of Australian agencies building SmileOx end to end. For a new practice this matters more than for an established one — configuring the retention layer before the first patient is a permanent structural advantage over retrofitting it in year three.</li>
+    <li><strong>Reporting you'll actually read.</strong> One page, monthly, in plain language: enquiries, bookings, cost per booked appointment by channel, chair utilisation, reviews, rankings, AI visibility. If a channel isn't producing patients we'll say so and move the money, including when it's a channel we recommended.</li>
+  </ol>
+</section>
+
+<!-- ============ 14 NEXT STEPS ============ -->
+<section id="part-14" data-reveal>
+  <div class="section-head">
+    <div class="section-num">§ 14</div>
+    <div>
+      <div class="section-label">Part Fourteen</div>
+      <h2 class="section-title">Next<br><em>steps.</em></h2>
+    </div>
+  </div>
+
+  <p class="lede">Short, and time-sensitive in a way most proposals aren't.</p>
+
+  <ol>
+    <li><strong>A 30-minute call</strong> with <span class="ph">[Dr Principal]</span> to walk through this document, confirm the opening date, and pressure-test the assumptions. No commitment.</li>
+    <li><strong>Tier selection</strong> — Growth or Scale — and confirmation of the media budget shape in §12.3.</li>
+    <li><strong>Engagement letter</strong> issued and signed. Website and launch program invoiced on signature.</li>
+    <li><strong>Kick-off within 7 days.</strong> The Google Business Profile is created in the first 48 hours, because it is the one asset in this plan whose timeline cannot be compressed later.</li>
+  </ol>
+
+  <div class="warn">
+    <div class="warn-label">On timing</div>
+    <p>It is 23 July. On a late-October opening, the website should be live in mode one by mid-September and the Google Business Profile should be through verification before that. Working backwards from those two dates, <strong>the useful decision window is the next two to three weeks.</strong> Beyond that the plan still works, but it compresses — and the parts that get compressed are the organic, AI and Google Business Profile foundations, which are precisely the parts that pay out for years rather than months. If the opening date has moved, tell us and we'll re-cut the whole schedule against the real one.</p>
+  </div>
+
+  <div class="callout">
+    <div class="callout-label">Contact</div>
+    <p><strong>Rowayne</strong><br>Generate Your Audience<br>Sydney · Crows Nest &amp; Parramatta</p>
+    <p>The efficient next step is a 30-minute video call. We'll come to Warrnambool for the kick-off proper, and we'd like to see the tenancy before the fit-out is finished — the build content in §10 is considerably better when it starts early.</p>
+  </div>
+
+  <p>Thank you for the opportunity to put this together. Whatever you decide about a marketing partner, the observation underneath this document holds: Warrnambool's main street has no general dentist on it, the market's two leaders are both parked on the edge of town, and nobody in the region is building for the way patients will be searching in 2027. That is a genuinely good position to open into — and the window for using it properly closes on opening day.</p>
+</section>
+
+</main>
+</div><!-- /.grid -->
+</div><!-- /.wrap -->
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap" style="position:relative">
+    <img class="mark-out" src="data:image/png;base64,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" alt="">
+    <div class="footer-meta">
+      <div>Prepared by<strong>Generate Your Audience</strong></div>
+      <div>For<strong><span class="ph">[Practice Name]</span><br><span class="ph">[Dr Principal]</span><br>Warrnambool VIC</strong></div>
+      <div>Contact<strong>Rowayne · GYA<br>Crows Nest &amp; Parramatta</strong></div>
+      <div>Document<strong>WBL-Launch · Rev 01<br>23 July 2026 · Confidential</strong></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var revealEls = document.querySelectorAll('[data-reveal]');
+  if (!('IntersectionObserver' in window)) {
+    revealEls.forEach(function(el){ el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0, rootMargin: '0px 0px -40px 0px' });
+    revealEls.forEach(function(el){ io.observe(el); });
+
+    var revealIfInView = function(){
+      revealEls.forEach(function(el){
+        var r = el.getBoundingClientRect();
+        if (r.top < window.innerHeight && r.bottom > 0) el.classList.add('in');
+      });
+    };
+    revealIfInView();
+    window.addEventListener('load', revealIfInView);
+    setTimeout(function(){
+      document.querySelectorAll('[data-reveal]:not(.in)').forEach(function(el){ el.classList.add('in'); });
+    }, 1500);
+  }
+
+  // Active TOC highlight
+  var tocLinks = document.querySelectorAll('.toc a');
+  var sections = Array.prototype.slice.call(document.querySelectorAll('main section'));
+  if ('IntersectionObserver' in window) {
+    var spy = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting) {
+          var id = e.target.id;
+          tocLinks.forEach(function(a){
+            a.style.color = (a.getAttribute('href') === '#' + id) ? 'var(--brand-deep)' : '';
+          });
+        }
+      });
+    }, { rootMargin: '-40% 0px -50% 0px' });
+    sections.forEach(function(s){ if (s.id) spy.observe(s); });
+  }
+})();
+</script>
+
+</body>
+</html>
